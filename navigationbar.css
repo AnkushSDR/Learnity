@@ -7,8 +7,8 @@
     justify-content: center;
     overflow: hidden;
     top: 0;
-    height: 8vh;
-    width: 100vw;
+    height: 9vh;
+    width: 110vw;
     z-index: 1000;
     position: fixed;
 }
@@ -17,7 +17,7 @@
 
     position: relative;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 30px 22px;
+    padding: 30px 20px;
     color: white;
     font-size: 23px;
     cursor: pointer;
@@ -26,7 +26,7 @@
     border-radius: 50px;
     text-decoration: none;
     z-index: 1;
-    left: 35vw;
+    left: 30vw;
 }
 
 .navigationbar .navigationbutton:hover {
