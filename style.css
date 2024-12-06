@@ -17,7 +17,7 @@ body {
     animation: fadeAnim .5s ease-in-out;
     font-family: Poppins, sans-serif;
     cursor:pointer;
-    overflow: hidden;
+    overflow-y: hidden;
     
 }
 
@@ -233,7 +233,7 @@ a {
     font-size: 2em; 
     color: #ccc; 
     display: flex;
-    left: 4vw;
+    left: 3vw;
 } 
 .star.checked { 
     color: #f5b642; 
