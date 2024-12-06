@@ -17,7 +17,7 @@ body {
     animation: fadeAnim .5s ease-in-out;
     font-family: Poppins, sans-serif;
     cursor:pointer;
-    overflow-y: hidden;
+    overflow-x: hidden;
     
 }
 
