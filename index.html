@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learnity</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="Ratings.js"></script>
+    <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="navigationbar.css">
+</head>
+
+<body style="background-color: black;">
+
+<section id="home" style="background-color: #000000;">
+    <!-- Images -->
+
+    <img src="rings.png" style="position: absolute; margin-top: 4.3%;top: 25%;left: 50%;height:50%;">
+    <img src="red_ball-removebg-preview (1).png" class="redball">
+    <img src="blue_ball-removebg-preview.png" class="blueball">
+    <img src="greenball-removebg-preview.png" class="greenball">
+
+  <!-- Website Navigation Bar -->
+
+
+  <nav class="navigationbar">
+
+    <a href="#home" class="navigationbutton">Home</a>
+    <a href="#credits" class="navigationbutton">Credits</a>
+    <a href="#rateus" class="navigationbutton">Rate Us</a>
+
+</nav>
+
+
+
+  <!-- Website Title  -->
+
+<div class="websitedecor">
+
+    <div class="webpagelogo"><img src="LearnityLogo.png"></div>
+    <p class="greetingtitletextpart1" id="title" style="font-size: 100px;font-weight: 900;"></p>
+    <p class="greetingtitletextpart2" id="subtitle" style="font-size: 60px; font-weight: 600;"></p>
+    <p class="p1" id="description" style="font-weight: bolder;font-size: 45px;padding-top: 1vh;"></p>
+    <span id="fixeddescription">Providing</span><span id="qualities"></span>
+    <a class="hyper" href="#subjects"><button class="nextpagebutton" style="margin-top: 1vh;">Start learning</button></a>
+
+</div>  
+</section>
+
+<section id="credits" style="background-image: url(credits\ background.jpeg);">
+
+  <!-- Website Title  -->
+
+  <div class="creditstext"><h1>The ones,</h1></div>
+  <div class="creditsdescription"><h1>who made this possible</h1></div>
+  
+  <!-- Website Details -->
+   <!-- Inormation -->
+
+<div class="credits">
+
+    <div class="card1"><img src="ankush.jpg"><p class="name">Ankush Samaddar</p><div class="programmer"><img src="picon.png"></div><p class="classification">Programming</p><p class="personinfo">Ankush Samaddar is the person who took forth the creation of the source code, acting as one of the foundation blocks for the webpage. He also assisted with the proper maintanance of the website, ensuring proper safety and security from front-end and back-end programming.</p></div>
+    <div class="card2"><img src="PhysicsSliderPicture.jpg"><p class="name">Aaratrik Ghosh</p><div class="uidesigner1"><img src="paintbrush.png"></div><p class="classification">User Interface Design/Comedian</p><p class="personinfo">Aaratrik Ghosh contributed to the project with his suggestions and advice on certain parts of the website. He ensured to provide useful information on design and the educational information that are used throughout the website. </p></div>
+    <div class="card3"><img src="PhysicsSliderPicture.jpg"><p class="name">Himanish Dutta Banik</p><div class="uidesigner2"><img src="paintbrush.png"></div><p class="classification">Website Designer/Data Analysis</p><p class="personinfo">Himanish Dutta Banik is the main designer of the website. He is the backbone of the designs and visual representations utilised in the making of the project, and also suggesting ideas for improvement whenever possible. He have also ensured to provide up-to-date and useful information on different subjects that have been made available for 9th grade in our website.</p></div>
+
+</div>
+</section>
+
+<section id="rateus" style="background-image: url(ratingsbgimage.jpg);">
+    
+  <!-- Background Image --> 
+  
+  <!-- Website Title  -->
+
+  <div class="titletext">
+
+    <h1>Rate Us!</h1>
+    
+  </div>
+  
+  <!-- Website Details -->
+   <!-- User Information -->
+
+<div class="websiteinformationgathering">
+
+    <div class="textinput">
+        <input type="text" id="user" placeholder="Please enter your name">
+    </div>
+
+    <div id="star-rating" class="stars">
+        
+        <text class="star" data-value="1">&#9733;</text>
+        <text class="star" data-value="2">&#9733;</text>
+        <text class="star" data-value="3">&#9733;</text>
+        <text class="star" data-value="4">&#9733;</text>
+        <text class="star" data-value="5">&#9733;</text>
+    
+    </div>
+
+</div>   
+
+    <script type="module" src="Ratings.js"></script>
+    
+<!-- CSS & JS Configurations -->
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+  
+</section>
+
+<section id="subjects">
+  <div class="titletext">
+      <p style="font-size: 100px; font-weight: 900;">To start off,</p>
+      <p style="font-size: 50px; font-weight: 400;">Please choose your subject!</p>
+  </div>
+  <div class="learnity-carousel">
+      <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+              <!-- Mathematics -->
+              <div class="content swiper-slide">
+                  <img src="MathsSliderPicture.jpg" alt="">
+                  <div class="text-content">
+                      <h3>Mathematics</h3>
+                      <p></p>
+                      <a href="Mathematics.html"><button class="btn">Read more</button></a>
+                  </div>
+              </div>
+              <!-- Chsmistry -->
+              <div class="content swiper-slide">
+                  <img src="ChemistrySliderImage.jpeg" alt="">
+                  <div class="text-content">
+                      <h3>Chemistry</h3>
+                      <p></p>
+                      <a href="Chemistry.html"><button class="btn">Read more</button></a>
+                  </div>
+              </div>
+              <!-- Biology -->
+              <div class="content swiper-slide">
+                <img src="BiologySliderPicture.jpg" alt="">
+                <div class="text-content">
+                    <h3>Biology</h3>
+                    <p></p>
+                    <a href="Biology.html"><button class="btn">Read more</button></a>
+                </div>
+            </div>
+            <!-- Computer -->
+            <div class="content swiper-slide">
+              <img src="MathsSliderPicture.jpg" alt="">
+              <div class="text-content">
+                  <h3>Computer</h3>
+                  <p></p>
+                  <a href="#"><button class="btn">Read more</button></a>
+              </div>
+          </div>
+          <!--Physics-->
+          <div class="content swiper-slide">
+            <img src="PhysicsSliderPicture.jpg" alt="">
+            <div class="text-content">
+                <h3>Physics</h3>
+                <p></p>
+                <a href="Physics.html"><button class="btn">Read more</button></a>
+            </div>
+        </div>
+
+          </div>
+      </div>
+  </div>
+
+
+</section>
+
+<script>
+
+  // Slider Script
+  
+      var learnity = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    loop: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+        rotate: 2,
+        stretch: 2,
+        depth: 55,
+        modifier: 10,
+        slideShadows: true,
+    },
+  });
+  
+  // Typing Effect Scripts
+  
+  document.addEventListener("DOMContentLoaded", function() {
+    const text1 = "Learnity";
+    const text2 = "For Class 9";
+    const text3 = "We aim to provide a better learning for students of 9th Grade following the CBSE curriculum";
+    const qualities = [
+        "Brilliance ",
+        "Excellence ",
+        "Improvement ",
+        "Growth ",
+        "Importance "
+    ];
+    const otherTextTypingDelay = 120;
+    const qualitiesTextTypingDelay = 1000;
+    const qualitiesDelay = 3000;
+    let index1 = 0;
+    let index2 = 0;
+    let index3 = 0;
+    let currentIndex = 0;
+    let charIndex = 0;
+    let currentText = qualities[currentIndex];
+
+    function typetitle() {
+        if (index1 < text1.length) {
+            document.getElementById("title").innerHTML += text1.charAt(index1);
+            index1++;
+            setTimeout(typetitle, otherTextTypingDelay);
+        } else {
+            typesubtitle();
+        }
+    }
+
+    function typesubtitle() {
+        if (index2 < text2.length) {
+            document.getElementById("subtitle").innerHTML += text2.charAt(index2);
+            index2++;
+            setTimeout(typesubtitle, otherTextTypingDelay);
+        } else {
+            typedescription();
+        }
+    }
+
+    function typedescription() {
+        if (index3 < text3.length) {
+            document.getElementById("description").innerHTML += text3.charAt(index3);
+            index3++;
+            setTimeout(typedescription, otherTextTypingDelay);
+        } else {
+            typequalities();
+        }
+    }
+
+    function typequalities() {
+        if (charIndex < currentText.length) {
+            document.getElementById("qualities").innerHTML += currentText.charAt(charIndex);
+            charIndex++;
+            setTimeout(typequalities, qualitiesTextTypingDelay);
+        } else {
+            setTimeout(erase, qualitiesDelay);
+        }
+    }
+
+    function erase() {
+        if (charIndex > 0) {
+            document.getElementById("qualities").innerHTML = currentText.substring(0, charIndex - 1);
+            charIndex--;
+            setTimeout(erase, qualitiesTextTypingDelay / 2);
+        } else {
+            currentIndex = (currentIndex + 1) % qualities.length;
+            currentText = qualities[currentIndex];
+            setTimeout(typequalities, qualitiesTextTypingDelay);
+        }
+    }
+
+    typetitle();
+    typedescription();
+    typesubtitle();
+    typequalities();
+});  
+    </script>
+  
+
+</body>
+
+</html>

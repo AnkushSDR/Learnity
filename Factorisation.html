@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learnity</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="navigationbar.css">
+  <link rel="stylesheet" href="mathematics.css">
+</head>
+
+<body>
+
+  <!-- Background Image --> 
+
+  <div class="bgimage" style="background-image: url(mathematicsbackground.jpg);"></div>
+  <div class="borderbgimage" style="background-color: black;"></div>
+
+  <!-- Website Navigation Bar -->
+
+  <nav class="navigationbar">
+
+    <a href="index.html" class="navigationbutton">Home</a>
+    <a href="Credits.html" class="navigationbutton">Credits</a>
+    <a href="RateUs.html" class="navigationbutton">Rate Us</a>
+
+</nav>
+  <!-- Website Title  -->
+
+  <div class="subtitle">
+
+    <h1>Factorisation of Polynomials</h1>    
+    
+  </div>
+  
+<div >
+
+    <div class="designs" style="padding-top: 20%;">1. Re-grouping
+
+        <div class="sidebuttons">
+            <button onclick="toggleDropdown('A1')" class="openbutton" aria-controls="A1" aria-expanded="false">Learn About This Topic</button>
+            <button onclick="toggleDropdown('A2')" class="openbutton" aria-controls="A2" aria-expanded="false">Examples & Solutions</button>
+            <button onclick="toggleDropdown('A3')" class="openbutton" aria-controls="A3" aria-expanded="false">Practice Papers</button>
+        </div>
+
+            <div class="dropdown-content" id="A1">
+                <p><h2 style="padding-left: .2vw;background-color: rgb(52, 52, 104);border-radius: 20px;text-align: center;height: 3.9vh;">Process of Re-grouping</h2></p>
+                <p>In order to regroup in factorization, firstly find the common factor in an equation. But, sometimes in a given expression it is not possible to take out a common factor directly. For example,</p> &nbsp;
+                <p> <b>(i) ab + ax + bc + cx</b> </p>&nbsp;
+                <p>Here, in this expression, we see that, if we try to factorise the expression directly, we will not be able to do so. Therefore, we bring <i>ab</i> and <i>bc</i> together and <i>ax</i> and <i>cx</i> together.</p>&nbsp;
+                <p>Therefore, <i>(ab + bc) + (ax + cx)</i></p>&nbsp;
+                <p>Now, we take <i>b</i> common from the first group and <i>x</i> common from the second group.</p>&nbsp;
+                <p>= <i>b(a + c) + x(a + c)</i></p>
+                <p>= <i>(a + c)(b + x)</i></p>&nbsp;
+                <p>Hence, we see that we grouped the equation according to the common variables. Thus, this process is called re-grouping.</p>
+            </div>
+
+            <div class="dropdown-content" id="A2">
+                <p><h2 style="padding-left: .2vw;background-color: rgb(52, 52, 104);border-radius: 20px;text-align: center;height: 3.9vh;">Examples Regarding The Topic</h2></p>
+                <p><b>Example 1: 6ab - b² + 12ac - 2bc</b></p>
+                <p>Solution: </p>
+                <p>= (6ab + 12ac) - b² - 2bc <br> = (6ab + 12ac) - (b² + 2bc) <br> = 6a(b + 2c) - b(b + 2c) <br> = (b + 2c)(6a - b)</p>&nbsp;
+
+                <p><b>Example 2: 1 + x + y - z + xy - yz - zx - xyz</b></p>
+                <p>Solution: </p>
+                <p>= (1 + x) + (y + xy) - z - zx - yz - xyz <br> = (1 + x) + y(1 + x) - z(1 + z) - yz(1 + x) <br> = (1 + x) [(1 + y) - z(1 + y)] <br> = (1 + x)(1 + y)(1-z)</p>
+
+                <p><b>Example 3: (2x-3)² - 8x + 12</b></p>
+                <p>Solution: </p>
+                <p>= (2x-3)² - 4(2x-3) <br> = (2x-3) [(2x-3)-4] <br> = (2x-3)(2x-7)</p>
+
+            </div>
+
+            <div class="dropdown-content" id="A3">
+                <p><h2 style="padding-left: .2vw;background-color: rgb(52, 52, 104);border-radius: 20px;text-align: center;height: 3.9vh;">Practice Questions</h2></p>
+                <p>
+                    <b>Factorise:</b> 
+                    <br><br>
+                    1. 9x² + 12xy <br>
+                    2. 18x²y - 24xyz <br>
+                    3. 27a3b³ - 45a⁴ + b²<br>
+                    4. 2a(x + y) - 3b(x + y) <br>
+                    5. 2x(p² + q²) + 4y(p² + q²) <br>
+                    6. x(a-5) + y(5-a) <br> 
+                    7. 4(a + b) - 6(a + b)²<br>
+                    8. 8(3a-2b)² - 10(3a-2b) <br>
+                    9. x(x + y)³ - 3x²y(x + y) <br>
+                    10. x3 + 2x² + 5x + 10 <br>
+                    11. x² + xy - 2xz - 2yz <br>
+                    12. a3b - a²b + 5ab - 5b <br>
+                    13. 8 - 4a - 2a³ + a⁴ <br>
+                    14. x³- 2x²y + 3xy² - 6y³ <br>
+                    15. px - 5q + pq - 5x <br>
+                    16. x² + y - xy - x <br>
+                    17. (3a-1)² - 6a + 2 <br>
+                    18. (2x-3)² - 8x + 12 <br>
+                    19. a³ + a - 3a² - 3 <br>
+                    20. 3ax - 6ay - 8by + 4bx <br>
+                    21. abx² + a²x + b²x + ab <br>
+                    22. x³ - x² + ax + x - a - 1 <br>
+                    23. 2x + 4y - 8xy - 1 <br>
+                    25. a² + ab(b + 1) + b³. 
+                    27. 2a² + bc - 2ab - ac <br>
+                    29. a(a + b-c) - bc <br>
+                    31. a²x² + (ax² + 1)x + a <br>
+                    33. x² - (a + b)x + ab <br>
+                    24. ab(x² + y²) - xy(a² + b²) <br>
+                    26. a³ + ab(1 - 2a) - 2b² <br>
+                    28. (ax + by)² + (bx - ay)² <br>
+                    30. a(a - 2b - c) + 2bc <br>
+                    32. ab(x² + 1) + x(a² + b²) <br>
+                    34. x² + 1/x² - 2 - 3x + 3/x
+                </p>
+            </div>
+
+        </div>
+    </element></div>
+
+    <div class="designs">2. Factorization using the formula of a² - b²   
+
+        <div class="sidebuttons">
+            <button onclick="toggleDropdown('B1')" class="openbutton" aria-controls="B1" aria-expanded="false">Learn About This Topic</button>
+            <button onclick="toggleDropdown('B2')" class="openbutton" style="margin-left: .5%;" aria-controls="B2" aria-expanded="false">Examples & Solutions</button>
+            <button onclick="toggleDropdown('B3')" class="openbutton" style="margin-left: .5%;" aria-controls="B3" aria-expanded="false">Practice Papers</button></div>
+        
+            <div class="dropdown-content" id="B1">
+                <p><h2 style="padding-left: .2vw;background-color: rgb(52, 52, 104);border-radius: 20px;text-align: center;height: 3.9vh;">Understanding the use of the formula a² - b²</h2></p>
+                <p>Before we learn in-depth information about this topic, we will firstly need to understand the utilisation of the formula <b>a²-b²</b> in the process of factorisation. The formula <b>a²-b²</b> is also known as the <i>difference of squares formula</i>. This formula is use to find the difference between the two squares without actually calculating them.<br></p>                
+                <img src="Formula2Proof.jpg" style="margin-left: 5%; margin-top: 2%;margin-bottom: 2%;">
+                <p><h2 style="padding-left: .2vw;background-color: rgb(52, 52, 104);border-radius: 20px;text-align: center;height: 3.9vh;">Verification of a² - b²</h2></p>
+                <p>The proof that the value a² - b² is (a + b)(a - b). Let us consider the above figure. Take the two squares of sides a units and b units respectively. They can be arranged such that two rectangles are also formed as shown in the above figure. <br><br> One rectangle has a length of 'a' unit and a breadth of (a - b) units on the other side the second rectangle has a length of (a - b) and a breadth of 'b' units. Now add the areas of the two rectangles to obtain the resultant values. The respective areas of the two rectangles are (a - b) × a = a(a - b) , and (a - b) × b = b(a - b). The sum of the areas of rectangles is the actual obtained resultant expression i.e., a(a - b) + b(a - b) = (a - b)(a + b). Again re-arranging the individual rectangles and squares, we get: (a + b)(a − b) = a2 − b2.</p><br><br>
+                <p>Let us understand this with a numerical example: </b>x² - y²/100</b> (Suppose) <br>
+                   Now here, in this equation, we try to put both of the terms into a format of squares. <br>
+                   That is, <b>x² - y²/10</b> [100 is the square of 10] <br>
+                   Let, x be a, <br>
+                   y/10 be b. <br>
+                   So, following the formula: </b>a² - b² = (a + b)(a - b)</b> we get,<br>
+                   <b>x² - y²/10</b><br>
+                   = (x + y/10)(x-y/10) [where x = a, y/10 = b] <br>
+                </p>
+            </div>
+
+            <div class="dropdown-content" id="B2">
+                <p><h2 style="padding-left: .2vw;background-color: rgb(52, 52, 104);border-radius: 20px;text-align: center;height: 3.9vh;">Examples Regarding The Topic</h2></p>
+                <p><b>Example 1: (100 - 9x²)</b></p>
+                <p>Solution: </p>
+                <p>= (10)² - (3x)² <br> = (10-3x)(10 + 3x)</p><br>
+                <p><b>Example 2: (x³ - x)</b></p>
+                <p>Solution: </p>
+                <p>= x(x-1)(x + 1)</p><br>
+                <p><b>Example 3: x² - 1 - 2a - a² </b></p>
+                <p>Solution: </p>
+                <p>= x² - (1 +  2a + a²) <br> = x² - (1 + a)² <br> = {x - (1 + a)} {x + (1 + a)} <br> = (x - 1 - a) (x + 1 + a)</p>
+
+            </div>
+
+            <div class="dropdown-content" id="B3">
+                <p><h2 style="padding-left: .2vw;background-color: rgb(52, 52, 104);border-radius: 20px;text-align: center;height: 3.9vh;">Practice Questions</h2></p>
+                <p>Factorise:<br>
+                    1. 9x²-16y² <br>
+                    2. 81-16x²<br>
+                    3. 2x³-32<br>
+                    4. 3x³-48x<br>
+                    5. x-64x³<br>
+                    6. 150-6x²<br>
+                    7. 20x²-45<br>
+                    8. a²-b²-a-b<br>
+                    9. a²-b² + 2bc-c²<br>
+                    10. a² + 2ab + b²-9c²<br>
+                    11. (a + b)³-a-b<br>
+                    12. x² + 2xy + y²-a² + 2ab-b²<br>
+                    13. a²-b²-a² + b²<br>
+                    14. 9-a² + 2ab-b²<br>
+                    15. 1 + 2ab-(a² + b²)<br>
+                    16. x²-y² + 6y-9<br>
+                    17. 9a² + 3a-8b-64b²<br>
+                    18. x²-2 + 1/x²-y²<br>
+                    19. x⁸-1<br>
+                    20. 81x⁴-y⁴<br>
+                    21. (25/4x²- 1/9y²)<br>
+                    22. 5-20x²<br>
+                    23. 3a³b-243ab³<br>
+                    24. 27a²-48b²<br>
+                    25. 8ab²-18a³<br>
+                    26. 2-50x²<br>
+                    27. (3a + 5b)²-4c²<br>
+                    28. 4a²-9b²-2a-3b<br>
+                    29. 4a²-4b² + 4a + 1<br>
+                    30. 108a²-3(b-c)²<br>
+                    31. x² + y²-z²-2xy<br>
+                    32. 25x²-10x + 1-36y²<br>
+                    33. a²-b²-4ac + 4c²<br>
+                    34. x³-5x²-x + 5<br>
+                    35. 9a² + 6a + 1-36b²<br>
+                    36. 4x²-9y²-2x-3y<br>
+                    37. x² + 1/x²-3<br>
+                    38. x⁴ + 4/x⁴<br>
+                    39. 16x⁴-1<br>
+                    40. x⁴-625<br>
+                    </p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="designs">3. Middle Term factorization    
+    
+        <div class="sidebuttons">
+            <button onclick="toggleDropdown('C1')" class="openbutton" aria-controls="C1" aria-expanded="false">Learn About This Topic</button>
+            <button onclick="toggleDropdown('C2')" class="openbutton" style="margin-left: .5%;" aria-controls="C2" aria-expanded="false">Examples & Solutions</button>
+            <button onclick="toggleDropdown('C3')" class="openbutton" style="margin-left: .5%;" aria-controls="C3" aria-expanded="false">Practice Papers</button></div>
+        
+            <div class="dropdown-content" id="C1">
+                <p><h2 style="padding-left: .2vw;background-color: rgb(52, 52, 104);border-radius: 20px;text-align: center;height: 3.9vh;">Process of Middle Term factorisation</h2></p>
+                <p>To factorise a quadratic equation, by splitting the middle term, you can follow these steps: <br><br>
+                <li>Consider the quadratic equation in the form of <b>ax² + bx + c = 0</b>.</li>
+                <li>Find two numbers that multiply to <b>a</b> and add to <b>b</b>. </li>
+                <li>Split the middle-term using two numbers.</li>
+                <li>Take out the common factors.</li>
+                <li>Simplify.</li>
+            </p>
+            </div>
+
+            <div class="dropdown-content" id="C2">
+                <p><h2 style="padding-left: .2vw;background-color: rgb(52, 52, 104);border-radius: 20px;text-align: center;height: 3.9vh;">Examples Regarding The Topic</h2></p>
+                <p><b>Example 1: 2x² + 11x - 21 </b></p>
+                    <p>Solution: <br></p>
+                    <p>= 2x² + 14x - 3x - 21 <br> = 2x(x + 7) - 3(x + 7) <br> = (x + 7)(2x - 3) <br></p><br>
+
+                    <p><b>Example 2: 6x² + 7x - 3</b></p>
+                    <p>Solution: <br></p>
+                    <p>= 6x² + 9x - 2x - 3 <br> = 3x(2x + 3) - (2x + 3) <br> = (2x + 3)(3x - 1) <br></p><br>
+
+                    <p><b>Example 3: 9x² - 22x + 8</b></p>
+                    <p>Solution: <br></p>
+                    <p>= 9x² - 18x - 4x + 8 <br> = 9x(x - 2) - 4(x - 2) <br> = (x - 2)(9x - 4)</p>
+                    
+            </div>
+
+            <div class="dropdown-content" id="C3">\
+                <p><h2 style="padding-left: .2vw;background-color: rgb(52, 52, 104);border-radius: 20px;text-align: center;height: 3.9vh;">Practice Questions</h2></p>
+                <p>Factorise: <br><br>
+
+                    1. x² + 11x + 30 <br>
+                    2. x² + 18x + 32<br>
+                    3. x² + 20x - 69<br>
+                    4. x² + 19x - 150<br>
+                    5. x² + 7x - 98<br>
+                    6. x² + 2√3x - 24<br>
+                    7. x² - 21x + 90<br>
+                    8. x² - 22x + 120<br>
+                    9. x² - 4x + 3<br>
+                    10. x² + 7√6x + 60<br>
+                    11. x² + 3√3x + 6<br>
+                    12. x² + 6√6x + 48<br>
+                    13. x² + 5√5x + 30<br>
+                    14. x² - 24x - 180<br>
+                    15. x² - 32x - 105<br>
+                    16. x² - 11x - 80<br>
+                    17. -6 - x - x²<br>
+                    18. x² - √3x - 6<br>
+                    19. 40 + 3x - x²<br>
+                    20. x² - 26x + 133<br>
+                    21. x²- 2√3x - 24<br>
+                    22. x² - 3√5x - 20<br>
+                    23. x² + √2x - 24<br>
+                    24. x² - 2√2x - 30<br>
+                    25. x² - x - 156<br>
+                    26. x² - 24x - 145<br>
+                    27. 9x² + 18x + 8<br>
+                    28. 6x² + 17x + 12<br>
+                    29. 18x² + 3x - 10<br>
+                    30 2x² + 11x - 21<br>
+                    31. 15x² + 2x - 8<br>
+                    32 21x² + 5x - 6<br>
+                    33. 24x² - 41x + 12<br>
+                    34. 3x² - 14x + 8<br>
+                    35. 2x² + 3x - 90<br>
+                    36. √5x² + 2√14x + 2<br>
+                    37. 2√3x² + x - 5√3<br>
+                    38. 7x² + 2√14x + 2<br>
+                    39. 6√3x² - 47x + 5√3<br>
+                    40. 5√5x² + 20x + 3√5<br>
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="designs">4. Expansion and factorization using the formula of (a + b + c)²    
+    
+        <div class="sidebuttons">
+            <button onclick="toggleDropdown('D1')" class="openbutton" aria-controls="D1" aria-expanded="false">Learn About This Topic</button>
+            <button onclick="toggleDropdown('D2')" class="openbutton" style="margin-left: .5%;" aria-controls="D2" aria-expanded="false">Examples & Solutions</button>
+            <button onclick="toggleDropdown('D3')" class="openbutton" style="margin-left: .5%;" aria-controls="D3" aria-expanded="false">Practice Papers</button></div>
+        
+            <div class="dropdown-content" id="D1">
+                <p><h2 style="padding-left: .2vw;background-color: rgb(52, 52, 104);border-radius: 20px;text-align: center;height: 3.9vh;">Proving the formula (a + b + c)²</h2></p>
+                <p>Proof of (a + b + c)² Formula </p>
+                <p>
+                    Formula for (a + b + c)² can be proved or expanded in the following two ways:<br><br>
+                    
+                    Let's discuss these methods in detail as follows:<br><br>
+                    
+                    <li>Collecting Like Terms</li>
+                    <br>
+                    Below we will expand (a + b + c)² by collecting the like terms. <br>
+                    
+                    (a + b + c)² = (a + b + c) (a + b + c)<br><br>
+                    
+                    ⇒ (a + b + c)² = a (a + b + c) + b (a + b + c) + c (a + b + c)<br><br>
+                    
+                    ⇒ (a + b + c)² = a² + ab + ac + ba + b² + bc + ca + cb + c²<br><br>
+                    
+                    From the above expression we will collect all the like terms to get the formula for the (a + b + c)²<br><br>
+                    
+                    (a + b + c)² = a² + b² + c² + 2ab + 2bc + 2ac<br><br>
+                    
+                    ⇒ (a + b + c)² = a² + b² + c² + 2(ab + bc + ca)<br><br>
+
+                    <li>Using Algebraic Identities</li>
+                    <br>
+                    Below we will expand (a + b + c)² using algebraic identity of (x + y)².<br><br>
+                    
+                    Let p = b + c<br><br>
+                    
+                    ⇒ (a + b + c)² = (a + p)²<br><br>
+                    
+                    By using the algebraic identity (x + y)² = x² + y² + 2xy we get<br><br>
+                    
+                    (a + b + c)² = a² + p² + 2ap<br><br>
+                    
+                    Now putting the value of p in the above expression we get<br><br>
+                    
+                    (a + b + c)² = a² + (b + c)² + 2a (b + c)<br><br>
+                    
+                    Now again using the identity (x + y)² = x² + y² + 2xy expand (b + c)²<br><br>
+                    
+                    (a + b + c)² = a² + b² + c² + 2bc + 2a (b + c)<br><br>
+                    
+                    ⇒ (a + b + c)² = a² + b² + c² + 2bc + 2ab + 2ac<br><br>
+                    
+                    ⇒ (a + b + c)² = a² + b² + c² + 2(ab + bc + ac)<br><br>
+                </p>
+            </div>
+
+            <div class="dropdown-content" id="D2">
+                <p><h2 style="padding-left: .2vw;background-color: rgb(52, 52, 104);border-radius: 20px;text-align: center;height: 3.9vh;">Examples Regarding The Topic</h2></p>
+                <p><b>Example 1: Expand (2a + 3b + 4c)²</b> <br><br>
+                    Solution: <br><br>
+                    Putting 2a = x, 3b = y and 4c = z, we get<br><br>
+                    (2a + 3b + 4c)²<br><br>
+                    =(x + y + z)²<br><br>
+                    = x² +  y² + z² + 2xy + 2yz + 2zx<br><br>
+                    = (2a)² + (3b)² + (4c)² + {2x (2a) × (3b)} + {2×(3b) × (4c)}  + {2x (4c) × (2a)}<br><br>
+                    = 4a² + 9b² + 16c² + 12ab + 24bc  + 16ca <br><br>
+                </p>
+
+                    <p> <b>Example 2: Expand (4a-b + 2c)²</b>  <br><br>   
+                    Solution: <br><br>
+                    Putting 4a = x, -b = y and 2c = z, we get <br><br>
+                    (4a-b + 2c)²<br><br>
+                    = (x + y + z)²<br><br>
+                    =x² + y² + z² + 2xy + 2yz + 2zx<br><br>
+                    = (4a)² + (-b)² + (2c)² + {2x4ax (-b)} + {2×(-b) × 2c}  + {2×2c×4a}<br><br>
+                    = 16a² + b² + 4c²-8ab-4bc  + 16ca<br><br>
+                    </p>
+                    <p> <b>Example 3: (3a-5b-c)²</b> <br><br>
+                    Solution: <br><br>
+                    Putting 3a = x, -5b = y and -c = z, we get<br><br>
+                    (3a-5b-c)²<br><br>
+                    = (x + y + z)²<br><br>
+                    = x² + y² + z² + 2xy + 2yz + 2zx<br><br>
+                    = (3a)² + (-5b)² + (-c)² + {2x3ax(-5b)} + {2x(-5b)x(-c)}  + {2×(-c)×3a}<br><br>
+                    = 9a² + 25b² + c² - 30ab + 10bc-6ca<br><br>
+                    </p>
+            </div>
+
+            <div class="dropdown-content" id="D3">
+                <p><h2 style="padding-left: .2vw;background-color: rgb(52, 52, 104);border-radius: 20px;text-align: center;height: 3.9vh;">Practice Questions</h2></p>
+                <p> 1. Expand: <br><br>
+                    (i) (a + 2b + 5c)² (ii) (2a - b + c)² (iii) (a - 2b - 3c)²<br><br>
+                    2. Expand: <br><br>
+                    (i) (2a - 5b - 7c)² (ii) (-3a + 4b - 5c)² (iii) (1/2a - 1/4b + 2)²<br><br>
+                    Factorise: <br><br>
+                    3. 4x² + 9y² + 16z² + 12xy-24yz-16zx<br>
+                    4. 9x² + 16y² + 4z²-24xy + 16yz-12xz<br>
+                    5. 25x² + 4y² + 9z²-20xy-12yz + 30xz<br>
+                    6. 16x² + 4y² + 9z²-16xy-12yz + 24xz<br><br>
+                    7. Evaluate<br><br>
+                    (i) (99)² (ii) (995)² (iii) (107)²</p>
+            </div>
+
+        </div>
+    </div>
+    
+    <div class="designs">5. Factorization using formula (a + b)³ & (a-b)³
+    
+        <div class="sidebuttons">
+                <button onclick="toggleDropdown('E1')" class="openbutton" aria-controls="E1" aria-expanded="false">Learn About This Topic</button>
+                <button onclick="toggleDropdown('E2')" class="openbutton" style="margin-left: .5%;" aria-controls="E2" aria-expanded="false">Examples & Solutions</button>
+                <button onclick="toggleDropdown('E3')" class="openbutton" style="margin-left: .5%;" aria-controls="E3" aria-expanded="false">Practice Papers</button></div>
+        
+            <div class="dropdown-content" id="E1">
+                <p><h2 style="padding-left: .2vw;background-color: rgb(52, 52, 104);border-radius: 20px;text-align: center;height: 3.9vh;">Proof of the formula (a + b)²</h2></p>
+
+                <p> (a + b)³ <br><br>
+                    = (a + b)(a + b)(a + b) <br>
+                    = a³ + 3a²b + 3ab²  +  b³<br><br></p>
+
+                <p><h2 style="padding-left: .2vw;background-color: rgb(52, 52, 104);border-radius: 20px;text-align: center;height: 3.9vh;">Proof of the formula (a - b)²</h2></p>
+
+                <p>(a - b)³ <br><br>
+                    = (a - b)(a - b)(a - b) <br>
+                    = a³ - 3a²b + 3ab² - b³ <br><br></p>
+            </div>
+
+            <div class="dropdown-content" id="E2">
+                <p><h2 style="padding-left: .2vw;background-color: rgb(52, 52, 104);border-radius: 20px;text-align: center;height: 3.9vh;">Examples Regarding The Topic</h2></p>
+                <p><b>Example 1: Simplify (x + y)³ - (x - y)³ - 6y(x² - y²)</b><br>
+                    Solution: <br><br>
+                    = (x + y)³ - (x - y)³ - 3(x + y)(x - y){(x + y) - (x - y)} [ 2y = (x + y) - (x - y)]<br><br>
+                    = a³ - b³ - 3ab(a - b), where x + y = a and x - y = b<br><br>
+                    = (a - b)³ = {(x + y) - (x - y)}³ = (2y)³ = 8y³<br><br></p>
+            </div>
+
+            <div class="dropdown-content" id="E3">
+                <p><h2 style="padding-left: .2vw;background-color: rgb(52, 52, 104);border-radius: 20px;text-align: center;height: 3.9vh;">Practice Questions</h2></p>
+                <p>
+
+                    <b>1. Expand:</b><br><br>
+                    (i) (3x + 2)³ <br>
+                    (ii) (3a + 1/4b)³<br>
+                    (iii) (1 + 2/3a)³<br><br>
+
+                    <b>2. Expand:</b><br><br>
+                    (i) (5a-3b)³<br>
+                    (ii) (3x - 5/x)³<br>
+                    (iii) (4/5a - 2)³<br><br>
+
+                    <b>Factorise:</b><br><br>
+                    3. 8a³ + 27b³  + 36a²b + 54ab²<br>
+                    4. 64a³-27b³-144a²b +  108ab²<br>
+                    6. 125x³-27y³-225x²y  + 135xy²<br>
+                    7. a³x³-3a²bx² + 3ab²x-b³<br>
+                    9. a³-12a(a-4)-64<br><br>
+
+                    <b>10. Evaluate</b><br><br>
+                    (i) (103)³ &nbsp; (ii) (99)³<br><br>
+
+                </p>
+            </div>
+        </div>
+    </div>
+        
+    <div class="designs">6. Factorization using formula (a³ - b³) & (a³ + b³)
+    
+        <div class="sidebuttons">
+            <button onclick="toggleDropdown('G1')" class="openbutton" aria-controls="G1" aria-expanded="false">Learn About This Topic</button>
+            <button onclick="toggleDropdown('G2')" class="openbutton" style="margin-left: .5%;" aria-controls="G2" aria-expanded="false">Examples & Solutions</button>
+            <button onclick="toggleDropdown('G3')" class="openbutton" style="margin-left: .5%;" aria-controls="G3" aria-expanded="false">Practice Papers</button></div>
+        
+            <div class="dropdown-content" id="G1">
+                <p><h2 style="padding-left: .2vw;background-color: rgb(52, 52, 104);border-radius: 20px;text-align: center;height: 3.9vh;">Proof of the formula (a³ + b³) </h2></p>
+                <p>
+                    Let us verify the "a³ + b³" formula here. To prove or verify that a3 + b3 = (a + b) (a² - ab + b²) we need to prove here LHS = RHS. <br><br>
+
+                    LHS = a³ + b³<br>
+
+                    On simplifying the RHS side we get,<br><br>
+
+                    = (a + b) (a² - ab + b²) (proved)<br>
+
+                    On multiplying the a and b separately with (a² - ab + b²) we get,<br><br>
+
+                    = a³ - a²b + ab² + a2²b - ab² + b³<br>
+
+                    = a (a² - ab + b²) + b(a² - ab + b²)<br>
+
+                    = a³ - a²b + a²b + ab²- ab² + b³<br>
+
+                    = a³ - 0 + 0 + b³<br>
+
+                    = a³ + b³<br>
+
+                Hence, a³ + b3³ = (a + b) (a² - ab + b²).<br>
+                </p>
+                <p><h2 style="padding-left: .2vw;background-color: rgb(52, 52, 104);border-radius: 20px;text-align: center;height: 3.9vh;">Proof of the formula (a³ - b³) </h2></p>
+                <p>
+                    Let us verify the a cube minus b cube formula. To prove that a³ - b³ = (a - b) (a² + ab + b²) we need to prove here LHS = RHS. Let's begin with the following steps.
+
+                    LHS = a³ - b³
+
+                    On Solving RHS side we get,
+
+                    = (a - b) (a² + ab + b²)
+
+                    On multiplying a and b separately with (a² + ab + b²) we get
+
+                    = a (a² + ab + b²) - b(a² + ab + b²)
+                    = a³ + a²b + ab² - a²b - ab² - b³
+                    = a³ + a²b - a²b + ab² - ab² - b³
+                    = a³ - 0 - 0 - b³
+                    = a³ - b³
+
+                    Hence proved, LHS = RHS
+                </p>
+            </div>
+
+            <div class="dropdown-content" id="G2">
+                <p><h2 style="padding-left: .2vw;background-color: rgb(52, 52, 104);border-radius: 20px;text-align: center;height: 3.9vh;">Examples Regarding The Topic</h2></p>
+                <p>
+                    <b>Example 1: Simplify (x + y)³ − (x − y)³ − 6y(x² − y²).</b><br><br>
+                    
+                    Solution:<br><br>
+
+                    (x + y)³ − (x − y)³ − 6y(x² − y²) <br>
+                    = (x + y)³ − (x − y)³ − 3(x + y)(x − y){(x + y) − (x − y)}<br>
+                    [: 2y = (x + y) − (x − y)]<br>
+                    = a³ − b³ − 3ab(a − b), where x + y = a and x − y = b<br>
+                    = (a − b)³ = {(x + y) − (x − y)}³ = (2y)³ = 8y³<br><br>
+                </p>
+
+            </div>
+
+            <div class="dropdown-content" id="G3"> 
+                <p><h2 style="padding-left: .2vw;background-color: rgb(52, 52, 104);border-radius: 20px;text-align: center;height: 3.9vh;">Practice Questions</h2></p>
+                <p>
+                    <b>1. Expand:</b><br><br>
+
+                    (i) (3x+2)³<br>
+                    (ii) (3a+1/4b)³<br>
+                    (iii) (1+ 2/3a)³<br><br>
+
+                    <b>2. Expand: </b><br><br>
+                    
+                    (i) (5a-3b)³<br>
+                    (ii) (3x-5/x)³<br>
+                    (iii) (4/5a-2)³<br><br>
+
+                    <b>Factorise:</b><br><br>
+
+                    3. 8a³+27b³+36a²b+54ab²<br>
+                    4. 64a³-27b³-144a²b+108ab²<br>
+                    5. 1+27/125a³+91/5+27a²/25<br>
+                    6. 125x³-27y³-225x²y+135xy²<br>
+                    7. a³x³-3a²bx²+3ab²x-b³<br>
+                    8. 64/125a³-96/25a²+48/5a-8<br>
+                    9. a³-12a(a-4)-64<br><br>
+
+                    <b>10. Evaluate: </b><br><br>
+
+                    (i) (103)³<br>
+                    (ii) (99)³<br><br>
+                </p>
+            </div>
+        </div>
+    </div>
+        
+    <div class="designs">7. Factorization using formula a³ + b³ + c³ - 3abc  
+
+        <div class="sidebuttons">
+            <button onclick="toggleDropdown('I1')" class="openbutton" style="margin-left: .5%;" aria-controls="I1" aria-expanded="false">Learn About This Topic</button>
+            <button onclick="toggleDropdown('I2')" class="openbutton" style="margin-left: .5%;" aria-controls="I2" aria-expanded="false">Examples & Solutions</button>
+            <button onclick="toggleDropdown('I3')" class="openbutton" style="margin-left: .5%;" aria-controls="I3" aria-expanded="false">Practice Papers</button></div>
+        
+            <div class="dropdown-content" id="I1">
+                <p><h2 style="padding-left: .2vw;background-color: rgb(52, 52, 104);border-radius: 20px;text-align: center;height: 3.9vh;">Proof that (x³ + y³ + z³- 3xyz) = (x + y + z)(x² + y² + z²-xy-yz-zx)</h2></p>
+                <p>
+                    (x³ + y³ + z³-3xyz) <br>
+                    = (x³ + y³) + z³-3xyz <br><br>
+                    = [(x + y)³-3xy(x + y)] + z³-3xyz <br><br>
+                    = u³-3xyu + z³-3xyz, where (x + y) = u<br><br>
+                    = (u³ + z³)-3xy(u + z)<br><br>
+                    = (u + z)(u²-uz + z²)-3xy(u + z)<br><br>
+                    = (u + z)(u² + z²-uz-3xy)<br><br>
+                    = (x + y + z)[(x + y)² + z²-(x + y)z-3xy]<br><br>
+                    = (x + y + z)(x² + y² + z²-xy-yz-zx)<br><br>
+                    Therefore, (x³ + y³ + z³-3xyz) = (x + y + z)(x² + y² + z²-xy-yz-zx)<br><br>
+                </p>
+            </div>
+            <div class="dropdown-content" id="I2">
+                <p><h2 style="padding-left: .2vw;background-color: rgb(52, 52, 104);border-radius: 20px;text-align: center;height: 3.9vh;">Examples Regarding The Topic</h2></p>
+                <p>
+                    <b>Example 1: Factorise a³-b³ + 1 + 3ab</b><br><br>
+                    Solution:<br><br>
+
+                    a³-b³ + 1 + 3ab<br>
+                    = a³ + (-b)³ + (1)³-3×a×(-b)×1<br>
+                    = x³ + y³ + z³-3xyz, where a=x,(-b)=y and 1=z<br>
+                    = (x + y + z)(x² + y² + z²-xy-yz-zx)<br>
+                    = (a-b + 1)(a² + b² + 1 + ab + b-a)<br>
+                    = (a-b + 1)(a² + b² + ab-a + b + 1)<br><br>
+
+                    <b>Example 2: If a + b + c=5 and ab + bc + ca=10 then prove that a³ + b³ + c³-3abc = -25.</b><br><br>
+                    
+                    Solution:<br><br>
+
+                    (a³ + b³ + c³-3abc)=(a + b + c)(a² + b² + c²-ab-bc-ca)<br>
+                    = (a + b + c)[(a + b + c)²-3(ab + bc + ca)]<br>
+                    = 5×[(5)²-(3×10)]<br>
+                    = 5×(25-30)=5×(-5)= -25.<br>
+                    Hence, (a³ + b³ + c³-3abc)= -25.<br><br>
+
+                    <b>Example 3: Factorise (x-2y)³ + (2y-3z)³ + (3z-x)³</b><br><br>
+                    
+                    Solution: <br><br>
+
+                    Putting (x-2y)=a,(2y-3z)=b and (3z-x)=c, we get<br>
+                    (x-2y)³ + (2y-3z)³ + (3z-x)³<br>
+                    = a³ + b³ + c³, where a + b + c=(x-2y) + (2y-3z) + (3z-x) = 0<br><br>
+                </p>
+            </div>
+            <div class="dropdown-content" id="I3">
+            <p><h2 style="padding-left: .2vw;background-color: rgb(52, 52, 104);border-radius: 20px;text-align: center;height: 3.9vh;">Practice Questions</h2></p>
+            <p>
+                <b>Find the product:</b><br><br>
+
+                1. (x + y-z)(x² + y² + z²-xy + yz + zx)<br>
+                2. (x-y-z)(x² + y² + z² + xy-yz + xz)<br>
+                3. (x-2y + 3)(x² + 4y² + 2xy + 6y-3x + 9)<br>
+                4. (3x-5y + 4)(9x² + 25y² + 15xy + 20y-12x + 16)<br><br>
+
+                <b>Factorise:</b><br><br>
+
+                5. 125a³ + b³ + 64c³-60abc<br>
+                6. a³ + 8b³ + 64c³-24abc<br>
+                7. 1 + b³ + 8c³-6bc<br>
+                8. 216 + 27b³ + 8c³-108bc<br>
+                9. 27a³-b³ + 8c³ + 18abc<br>
+                10. 8a³ + 125b³-64c³ + 120abc<br>
+                11. 8-27b³-343c³-126bc<br>
+                12. 125-8x³-27y³-90xy<br><br>
+            </p>
+            </div>
+
+        </div>
+
+    <div class="designs">8. Factorization using Vanishing Method 
+
+        <div class="sidebuttons">
+            <button onclick="toggleDropdown('J1')" class="openbutton" style="margin-left: .5%;" aria-controls="J1" aria-expanded="false">Learn About This Topic</button>
+            <button onclick="toggleDropdown('J2')" class="openbutton" style="margin-left: .5%;" aria-controls="J2" aria-expanded="false">Examples & Solutions</button>
+            <button onclick="toggleDropdown('J3')" class="openbutton" style="margin-left: .5%;" aria-controls="J3" aria-expanded="false">Practice Papers</button></div>
+            
+            <div class="dropdown-content" id="J1">
+                <p><h2 style="padding-left: .2vw;background-color: rgb(52, 52, 104);border-radius: 20px;text-align: center;height: 3.9vh;">What is the Vanishing method and how is it used?</h2></p>
+
+                <p>Vanishing method or trial method of factorisation of any given polynomial is a method of determining the factor (or factors) of the polynomial by finding its zero (or zeroes). This zero (or zeroes) is determined by experiment or trial, i.e., the values of the variable (or variables) for which the value of the given polynomial is zero, are determined by experiments or trials. For example, let f(x) = x² + 2x - 3 be a given polynomial, we have to find its zero (or zeroes), i.e., we want to determine the values of the variable x for which the value of f(x) is zero.</p>
+                    <p>Now putting x = 0 in f(x) we get, f(0) = 0² + 2 * 0 - 3 = -3 not equal to 0.</p>
+                    <p>Putting x = 1 in f(x) we get, f(1) = 1² + 2 * 1 - 3 = 1 + 2 - 3 = 0 <br></p>
+                    <p>Therefore, x = 1 is a zero of the polynomial f(x) = x² + 2x - 3. <br></p>
+                    <p>Again, putting x = 2 in f(x) we get, f(2) = 2² + 2 * 2 - 3 = 4 + 4 - 3 = 5 not equal to 0. <br></p>
+                    <p>Putting x = 3 in f(x) we get, f(3) = 3² + 2 * 3 - 3 = 9 + 6 - 3 = 12 not equal to 0. <br></p>
+                    <p>Putting x = -3 in f(x) we get, f(-3) = (-3)² + 2 * (-3) - 3 = 9 - 6 - 3 = 0. <br></p>
+                    <p>Therefore x = -3 is another zero of the polynomial f(x) = x² + 2x - 3. <br><br></p>
+                    <p>Thus, the zeroes of the given polynomial are determined by putting the different values of the variable in the given polynomial on the trial basis. </p>
+                    <p>Now, the question is that is there any easy rule or method of finding the exact values of the variable for which the value of the polynomial is zero ? In reply, it can be said that:</p>
+                    <p>(i) if the co-efficient of the term, containing the highest power of the variable of the polynomial be 1, then the zero of this polynomial will be any one of the factors of the constant term of the polynomial</p>
+                    <p>Such as, the coefficient of x², the term containing the highest power of x, in the polynomial f(x) = x² + 2x - 3 is 1, therefore the zeroes of f(x) will be any one of (±1) and (±3), which are the factors of the constant term 3 of f(x). We have already seen in the above that (+1) and (-3) are two zeroes of f(x) = x² + 2x - 3.</p>
+                    <p>(ii) If the co-efficient of the term containing the highest power of the variable in the given polynomial be a and the constant term be "c", then the zeroes of the polynomial are either the factors of "a" or the factor of "c" or the numbers obtained by the division of factors of "a" and factors of "c" and factors of "c" and factors of "a" </p>
+                    <p>For example, let f(x) = 2x² + x - 3 be a polynomial. We have to factorise it. Then, the co-efficient of the term containing the highest power of the variable x in the polynomial is 2, the factors of which are ± 1 and ± 2. Also, the factors of the constant term 3 are ± 1 and ± 3. So, the zeroes of f(x) must lie amongst the number ± 1, ± 2, ± 3, ± 1/3, ± 2/3. Generally, taking these values of x if, trials are made successively, we shall get the zeroes of f(x). </p>
+
+            </div>
+            <div class="dropdown-content" id="J2">
+                <p><h2 style="padding-left: .2vw;background-color: rgb(52, 52, 104);border-radius: 20px;text-align: center;height: 3.9vh;">Examples Regarding The Topic</h2></p>
+                <p>
+                <b>Ex. 1. Factorise (using factor theorem) : x^4 + 3x³ + 3x² + 2x + 1</b><br><br>
+
+                Solution: <br><br>
+                
+                Let, f (x) = x^4 + 3x³ + 3x² + 2x + 1 <br>
+
+                Therefore, f(-1) = (-1)^4 + 3. (-1)³ + 3. (-1)² + 2 (-1) + 1 = 1 - 3 + 3 - 2 + 1 = 0<br>
+                (x + 1) is a factor of f (x).<br>
+                Now, x^4 + 3x³ + 3x² + 2x + 1 = x³(x + 1) + 2x²(x + 1) + x(x + 1) + 1(x + 1)<br>
+                = (x + 1)(x³ + 2x² + x + 1)<br>
+
+                <b>Ex. 2. Factorise (using factor theorem) : x³ - x² - (2 - √{2})x + √{2} </b><br><br>
+
+                Solution: <br><br>
+                
+                Let, f (x) = x³ - x² - (2 - √{2})x + √{2}<br>
+                f(-1) = (-1)³ - (-1)² - (2 - √{2}) (-1) + √{2} = -1 - 1 + 2 - √{2} + √{2} = 0.<br><br>
+                Therefore, (x + 1) is a factor of f (x)<br>
+                Now, x³ - x² - (2 - √{2})x + √{2} = x²(x + 1) - 2x(x + 1) + √{2}(x + 1) = (x + 1)(x² - 2x + √{2})<br>
+                </p>
+            </div>
+            <div class="dropdown-content" id="J3">
+                <p><h2 style="padding-left: .2vw;background-color: rgb(52, 52, 104);border-radius: 20px;text-align: center;height: 3.9vh;">Practice Questions</h2></p>
+                </div>
+            </div>
+
+            <div class="designs">9. Reference Books
+
+                <p><img src="rd sharma cover.jpeg" style="margin-right: 1vw;height: 40vh;"><img src="rs aggarwal cover.jpeg"  style="margin-right: 1vw;height: 40vh;"><img src="kc nag cover.png"  style="margin-right: 1vw;height: 34vh;"></p>
+                
+            </div>                    
+    </div>
+</div>
+  <script>
+
+function toggleDropdown(id) {
+            const content = document.getElementById(id);
+            const isVisible = content.classList.contains('show');
+            document.querySelectorAll('.dropdown-content').forEach(dropdown => {
+                dropdown.classList.remove('show');
+            });
+            if (!isVisible) {
+                content.classList.add('show');
+            }
+        }
+
+  </script>
+
+</body>
+</html>

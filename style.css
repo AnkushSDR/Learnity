@@ -1,0 +1,642 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html{
+
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    animation: fadeAnim .5s ease-in-out;
+    font-family: Poppins, sans-serif;
+    cursor:pointer;
+    overflow: hidden;
+    
+}
+
+/* Carousel Configuration */
+
+.learnity-carousel {
+
+    height: 65vh;
+    position: absolute;
+    width: 85vw;
+    margin-top: 19vh;
+    left: 25vw;
+
+}
+
+.learnity-carousel .content {
+    width: 19vw;
+    height: 55vh;
+    margin: 2%;
+    background-color: #1b1f2a;
+    border: .2rem solid rgba(255,255,255,.1);
+    border-radius: .7rem;
+    border-bottom: .4rem solid #0099ff;
+    border-top: .4rem solid #0099ff;
+    overflow: hidden;
+    box-shadow: 5px 5px 35px rgba(255, 217, 0, 0.945);
+    animation: changeColorShade 1s ease-in-out infinite alternate;
+
+}
+
+@keyframes changeColorShade{
+
+    0%{box-shadow: 5px 5px 35px rgba(255, 217, 0, 1);}
+    100%{box-shadow: 5px 5px 35px rgba(255, 217, 0, 0.2);}
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.content img {
+    width: 19vw;
+    border-bottom-left-radius: .6rem;
+    border-bottom-right-radius: .6rem;
+}
+
+
+.text-content {
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1vh;
+    font-size: calc(1rem + 1vw); /* Responsive font size */
+    text-align: center; 
+}
+
+.text-content h3 {
+    color: #fff;
+    font-size: calc(2rem + 1vw); /* Responsive font size */
+    font-weight: 500;
+}
+
+.text-content p {
+    color: #fff;
+    max-width: 40vh;
+    padding: 1vh;
+    font-size: calc(0.7rem + 0.5vw); 
+    font-weight: 400;
+    text-align: center;
+}
+
+.btn {
+    background-color: #0099ff;
+    padding: 1rem 1rem;
+    border: 2px solid rgb(0, 153, 255);
+    outline: none;
+    color: #ffffff;
+    font-size: 1.1rem;
+    border-radius: .5rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+
+    transition: .3s;
+    background-color: rgb(0, 9, 139)
+}
+
+.btn:not(:hover){
+
+    transition: .3s;
+    background-color: rgb(0, 153, 255)
+}
+
+/* Text Configuration */
+
+.websitedecor{
+
+    position: absolute;
+    bottom: 8vh;
+    height: 55vh;
+    width: 35vw;
+    max-height: 55vh;
+    max-width: 35vw;
+
+}
+
+
+.websitedecor .greetingtitletextpart1,
+.websitedecor .greetingtitletextpart2 {
+    
+    text-align: left;
+    position: relative;
+    padding-left: 13vw;
+    color: white;
+    white-space: nowrap;
+    width: 31vw;
+    overflow: hidden;
+    font-size: calc(1.5rem + 0.5vw); 
+
+}
+
+.websitedecor img{
+    border-radius: 5em;
+    width: 12vw;
+    height: 24vh;
+    max-width: fit-content;
+    max-height: fit-content;
+    box-shadow: 5px 5px 5px rgb(204, 174, 7);
+    animation: changeColorShade 1s ease-in-out infinite alternate;
+
+}
+
+.websitedecor .webpagelogo{
+    
+    position: absolute;
+    margin: 2vh 2vw;
+    border-radius: 5em;
+    max-width: fit-content;
+    max-height: fit-content;
+    right: 6vw;
+    top: -25vh;
+    background-color: transparent;
+}
+
+
+.websitedecor .p1,
+.websitedecor .p2 {
+
+    color: white;
+    font-size: calc(1.5rem + 0.5vw);
+    text-align: left;
+    width: 35vw;
+    font-family: Poppins, sans-serif;
+    padding-left: 13vw;
+    border-radius: 15%;
+    position: relative;
+    margin-bottom: 1rem;
+
+}
+
+.titletext{ 
+
+    display: absolute;
+    position: absolute; 
+    text-align: left; 
+    padding-left: 5vw; 
+    color: white; 
+    top: 45vh; 
+
+}
+
+/* Buttons Configuration */
+/* Home Index Page */
+
+.nextpagebutton {
+    background-color: white;
+    font-size: 150%;
+    max-width: 25vh;
+    max-height: 15vw;
+    min-width: 25vh;
+    min-height: 5vh;
+    font-weight: bolder;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    margin-left: 13vw;
+    box-shadow: 5px 5px 15px rgb(190, 118, 9);
+    outline: none;
+    border: 4px solid;
+    border-radius: 5px;
+}
+
+.nextpagebutton:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 95px rgb(190, 118, 9);
+    transition: .2s;
+}
+
+.nextpagebutton:not(:hover) {
+
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: 5px 5px 15px rgb(190, 118, 9);
+    transition: .2s;
+}
+
+
+/* Elements Configuration */
+    /* Ratings Page */
+
+.star { 
+    cursor: pointer; 
+    position: relative;
+    margin-left: .2em;
+    font-size: 2em; 
+    color: #ccc; 
+    display: flex;
+    left: 4vw;
+} 
+.star.checked { 
+    color: #f5b642; 
+}
+.star:hover,
+.star.checked {
+    color: #f5b642;
+}
+
+.websiteinformationgathering{
+
+    position: absolute;
+    background: linear-gradient(#cb42f5, #1e474a);
+    width: 20vw;
+    height: 20vh;
+    border-radius: 40px;
+    outline: none;
+    border-color: grey;
+    border: 8px solid ;
+    align-content: center;
+    top: 15vh;
+    left: 60vw;
+    animation: floatingAnimation 4s ease-in-out infinite alternate;
+
+}
+
+.textinput{
+
+    display: flex;
+    justify-content: center;
+    border: #2c1e4a;
+    color: transparent;
+    
+}
+
+.textinput input{
+
+    width: 300px;
+    height: 70px;
+    border: 4px solid #0000005e;
+    border-radius: 40px;
+    border-color: black;
+    outline: none;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+    opacity: .7;
+    background-color:rgba(255, 255, 255, 0.521);
+    
+}
+
+.textinput input::placeholder{
+
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    text-align: center;
+    font-size: 400;
+    
+}
+
+.websiteinformationgathering .stars{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 250px;
+    height: 70px;
+    font-size: 25px;
+}
+
+/* Animations */
+
+/* Rate Us page */
+@keyframes floatingAnimation{
+
+    0% {transform: translateY(10vw);}
+    100%{transform: translateY(15vw);}
+
+}
+
+/* Universal */
+
+@keyframes fadeAnim{
+
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+/* Decoration Configuration */
+
+.redball,
+.blueball,
+.greenball {
+    position: absolute;
+}
+
+.redball {
+    top: 20vh;
+    left: -5.5vw;
+}
+
+.greenball {
+    bottom: 82vh;
+    left: 71vw;
+}
+
+.blueball {
+    bottom: 1vh;
+    right: 10vw;
+}
+
+/* Sections */
+
+section{
+
+    z-index: 0;
+}
+
+/* Rate Us */
+
+#rateus{
+
+    position: relative;
+	background-size: 300% 300%;
+	animation: gradient 15s ease infinite;
+    max-height: 100vh;
+    max-width: 100vw;
+    min-height: 100vh;
+    min-width: 100vw;
+    justify-content: center;
+
+}
+
+#rateus h1{
+
+    background: linear-gradient(45deg, rgba(19, 192, 178, 0.699), rgb(255, 0, 34), rgb(0, 162,255));
+    font-size: 150px;
+    font-weight: 900;
+    background-clip: text;
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 5s ease infinite;
+
+}
+
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+/* Home Section */
+
+#home{
+
+    background-color: #000000;
+    max-height: 100vh;
+    max-width: 100vw;
+    min-height: 100vh;
+    min-width: 100vw;
+
+}
+
+/* Credits Section */
+
+#credits{
+        position: relative;
+        background-size: 300% 300%;
+        animation: gradient 25s ease infinite;
+        max-height: 100vh;
+        max-width: 100vw;
+        min-height: 100vh;
+        min-width: 100vw;
+    
+    }
+
+#credits h1{
+
+    background: linear-gradient(100deg, rgba(19, 192, 178, 0.699), rgb(255, 140, 0, 0.938), rgb(0, 162,255));
+    background-clip: text;
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 5s ease infinite;
+    
+    }
+    
+#credits .creditstext{ 
+    
+    position: absolute; 
+    font-size: 60px;
+    text-align: left; 
+    padding-left: 1vw; 
+    color: white; 
+    top: 45vh; 
+    
+    }
+    
+#credits .creditsdescription{ 
+    
+    position: absolute; 
+    text-align: left; 
+    font-size: 28px;
+    padding-left: 2vw; 
+    color: white; 
+    top: 57vh; 
+    
+    }
+    
+            
+#credits .credits{
+    
+        position: absolute;
+        display: flex;
+        left: 30vw;
+        top: 20vh;
+        height: 70vh;
+        width: auto;
+    }
+    
+#credits .credits img{
+    
+        height: 44vh;
+        width: 20vw;
+    
+    }
+    
+#credits .credits .card1,
+#credits .credits .card2,
+#credits .credits .card3{
+        
+        background-color: rgba(255, 255, 255, 0.767);
+        position: relative;
+        margin-left: 2vw;
+        border: 10px solid;
+        overflow: hidden;
+        border-color: rgb(255, 140, 0);
+        border-radius: 2vh;
+        height: fit-content;
+        width: fit-content;
+        justify-content: center;
+    }
+    
+#credits .credits .card1{
+    
+        animation: floating1 2.9s ease-in-out .5s infinite alternate-reverse;  
+        transform: translateY(100px);
+    }
+    
+#credits .credits .card2{
+    
+        animation: floating3 2.5s ease-in-out .5s infinite alternate-reverse;  
+        transform: translateY(-70px);
+    }
+    
+#credits .credits .card3{
+    
+        animation: floating2 1.7s ease-in-out .5s infinite alternate-reverse;  
+        transform: translateY(80px);
+    
+    }
+    
+    @keyframes floating1{
+        0%{transform: translateY(-100px);} 
+        100%{transform: translateY(100px);}
+    }
+    
+    @keyframes floating2{
+        0%{transform: translateY(-60px);} 
+        100%{transform: translateY(80px);}
+    }
+    
+    @keyframes floating3{
+        0%{transform: translateY(50px);} 
+        100%{transform: translateY(-70px);}
+    }
+    
+#credits .name{
+    
+        font-size: 220%;
+        text-align: center;
+        font-weight: 700;
+    }
+    
+#credits .personinfo{
+    
+        text-align:justify;
+        width: 19.345vw;
+        font-size: 1.43vh;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        word-spacing: -0.03cm;
+        margin-top: 1.5vh;
+        margin-bottom: 1vh;
+    
+    }
+    
+#credits .classification{
+    
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        text-align: center;
+        font-size: 143%;
+        font-weight: 500;
+    }
+    
+#credits .programmer{
+    
+    position: absolute;
+    top: 45vh;
+    left: 1.5vw;
+    
+    }
+    
+#credits .programmer img{
+        height: 10vh;
+        width: 8vw;
+    }
+    
+#credits .uidesigner1{
+    
+        position: absolute;
+        top: 48vh;
+        left: 1.7vh;
+    }
+    
+#credits .uidesigner1 img{
+    
+        height: 4vh;
+        width: 2vw;
+    }
+#credits .uidesigner2{
+    
+        position: absolute;
+        top: 48vh;
+        left: 1.7vh;
+    }
+    
+#credits .uidesigner2 img{
+    
+        height: 4vh;
+        width: 2vw;
+    }
+    
+#subjects{
+
+    position: absolute;
+    max-height: 100vh;
+    max-width: 100vw;
+    min-height: 100vh;
+    min-width: 100vw;
+    top: 0;
+    background: linear-gradient(#122d33, #10262b, #b96037 , #b4207b, #971ecffd);
+    left: 200vh;
+}
+
+/* Changing Text Animation */
+
+#qualities{
+
+    font-family: Poppins, sans-serif; 
+    color: white; 
+    font-size: 37px;
+    margin-left: .2vw;
+    font-weight:bold;
+    border-right: 3px solid;
+    border-bottom: 4px rgb(100, 100, 255) solid;
+    outline: none;
+    animation: blinking 1s infinite ease-in-out
+}
+
+@keyframes blinking{
+
+    0%{border-right: white;}
+    50%{border-right: black;}
+}
+
+#fixeddescription{
+
+    font-family: Poppins, sans-serif; 
+    color: white; 
+    font-size: 37px;
+    margin-left:13vw;
+    font-weight:lighter;
+}
