@@ -56,16 +56,24 @@ button{
 
 }
 
+.buttons{
+
+    display: flex;
+    position: absolute;
+    gap: 50vw;
+    width: 100vw;
+    height: 100vh;
+}
 .buttons button:hover{
 
     transform: scale(1.05);
 
 }
 
-#subjectitle{
+#subjecttitle{
 
-    background: linear-gradient(45deg, rgb(22, 18, 11), rgb(251, 255, 11), rgb(22, 18, 11));
-    font-size: 110px;
+    background: linear-gradient(45deg, rgb(139, 107, 52), rgb(210, 212, 89), rgb(139, 107, 52));
+    font-size: 6vmax;
     font-weight: 900;
     background-clip: text;
     background-size: 150%;
@@ -97,9 +105,9 @@ button{
     display: absolute;
     position: absolute; 
     text-align: left; 
-    padding-left: 150px; 
+    padding-left: 1vw; 
     color: white; 
-    top: 500px; 
+    top: 50vh; 
 }
 
 .bgimage{
