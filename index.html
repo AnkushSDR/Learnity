@@ -28,8 +28,11 @@
 
 
   <nav class="navigationbar">
-
+    
+    <div class="navbarlogo"><img src="LearnityNavBarLogo.png"></div>
+    <p> Learnity </p>
     <a href="#home" class="navigationbutton">Home</a>
+    <a href="#subjects" class="navigationbutton">Subjects</a>
     <a href="#credits" class="navigationbutton">Credits</a>
     <a href="#rateus" class="navigationbutton">Rate Us</a>
 
@@ -70,10 +73,8 @@
 </div>
 </section>
 
-<section id="rateus" style="background-image: url(ratingsbgimage.jpg);">
+<section id="rateus" >
     
-  <!-- Background Image --> 
-  
   <!-- Website Title  -->
 
   <div class="titletext">
@@ -84,23 +85,22 @@
   
   <!-- Website Details -->
    <!-- User Information -->
+<div class="ratingsinputbordereffect">
+    <div class="websiteinformationgathering">
 
-<div class="websiteinformationgathering">
+        <div class="textinput">
+            <input type="text" id="user" placeholder="Please enter your name">
+        </div>
 
-    <div class="textinput">
-        <input type="text" id="user" placeholder="Please enter your name">
-    </div>
-
-    <div id="star-rating" class="stars">
+        <div id="star-rating" class="stars">
+            
+            <text class="star" data-value="1">&#9733;</text>
+            <text class="star" data-value="2">&#9733;</text>
+            <text class="star" data-value="3">&#9733;</text>
+            <text class="star" data-value="4">&#9733;</text>
+            <text class="star" id="star5" data-value="5">&#9733;</text>
         
-        <text class="star" data-value="1">&#9733;</text>
-        <text class="star" data-value="2">&#9733;</text>
-        <text class="star" data-value="3">&#9733;</text>
-        <text class="star" data-value="4">&#9733;</text>
-        <text class="star" data-value="5">&#9733;</text>
-    
-    </div>
-
+        </div>
 </div>   
 
     <script type="module" src="Ratings.js"></script>
@@ -201,14 +201,15 @@
     const text2 = "For Class 9";
     const text3 = "We aim to provide a better learning for students of 9th Grade following the CBSE curriculum";
     const qualities = [
-        "Brilliance ",
-        "Academic Excellence ",
         "Intellectual Improvement ",
+        "Academic Excellence ",
         "Mental Growth ",
+        "Importance",
+        "Brilliance"
     ];
-    const otherTextTypingDelay = 120;
-    const qualitiesTextTypingDelay = 1000;
-    const qualitiesDelay = 3000;
+    const otherTextTypingDelay = 100;
+    const qualitiesTextTypingDelay = 130;
+    const qualitiesDelay = 4000;
     let index1 = 0;
     let index2 = 0;
     let index3 = 0;
