@@ -73,41 +73,49 @@
 </div>
 </section>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Submit Review</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <section id="rateus">
-        <div class="titletext">
-            <h1>Rate Us!</h1>
-        </div>
-        <div class="ratingsinputbordereffect">
-            <div class="websiteinformationgathering">
-                <div class="textinput">
-                    <input type="text" id="user" placeholder="Please enter your name">
-                </div>
-                <div id="star-rating" class="stars">
-                    <span class="star" data-value="1">&#9733;</span>
-                    <span class="star" data-value="2">&#9733;</span>
-                    <span class="star" data-value="3">&#9733;</span>
-                    <span class="star" data-value="4">&#9733;</span>
-                    <span class="star" data-value="5">&#9733;</span>
-                </div>
-            </div>
-        </div>
-        <script type="module" src="Ratings.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-storage.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
-    </section>
-</body>
-</html>
+<section id="rateus" style="background-image: url(ratingsbgimage.jpg);">
+    
+  <!-- Background Image --> 
+  
+  <!-- Website Title  -->
+
+  <div class="titletext">
+
+    <h1>Rate Us!</h1>
+    
+  </div>
+  
+  <!-- Website Details -->
+   <!-- User Information -->
+
+<div class="websiteinformationgathering">
+
+    <div class="textinput">
+        <input type="text" id="user" placeholder="Please enter your name">
+    </div>
+
+    <div id="star-rating" class="stars">
+        
+        <text class="star" data-value="1">&#9733;</text>
+        <text class="star" data-value="2">&#9733;</text>
+        <text class="star" data-value="3">&#9733;</text>
+        <text class="star" data-value="4">&#9733;</text>
+        <text class="star" data-value="5">&#9733;</text>
+    
+    </div>
+
+</div>   
+
+    <script type="module" src="Ratings.js"></script>
+    
+<!-- CSS & JS Configurations -->
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+  
+</section>
 
 <section id="subjects">
   <div class="titletext">

@@ -292,8 +292,8 @@ section{
     animation: jump .5s ease-in-out
 }
 .star:hover,
-.star.checked{
-    color: goldenrod;
+.star.checked {
+    color: #f5b642;
 }
 
 .websiteinformationgathering{
