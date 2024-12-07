@@ -3,7 +3,6 @@
 body{
 
     overflow-x: hidden;
-    text-align: center;
     background-image: url(subjectbackground.jpg);
 
 }
@@ -18,38 +17,41 @@ button{
 
 .purematter img{
 
-    height: 600px;
+    height: 45vh;
 
 }
 
 .purematter{
 
-    left: 41.5%;
+    left: 44.5%;
     top: 30%;
     transition: .2s ease-in-out;
 
 }
 
-.surroundingmater{
+.surroundingmater, .surroundingmater img{
 
-    left: 69.5%;
-    top: 40%;
+    height: 25vh;
+    left: 83.9%;
+    top: 50%;
     transition: .2s ease-in-out;
 
 }
 
-.atommolecule{
-
-    left: 56.5%;
-    top: 40%;
+.atommolecule, .atommolecule img{
+    
+    height: 25vh;
+    left: 58.5%;
+    top: 50%;
     transition: .2s ease-in-out;
 
 }
 
-.atomstructure{
+.atomstructure, .atomstructure img{
 
-    left: 82.8%;
-    top: 40%;
+    height: 25vh;
+    left: 71.2%;
+    top: 50%;
     transition: .2s ease-in-out;
 
 }
@@ -60,10 +62,10 @@ button{
 
 }
 
-h1{
+#subjectitle{
 
     background: linear-gradient(45deg, rgb(22, 18, 11), rgb(251, 255, 11), rgb(22, 18, 11));
-    font-size: 150px;
+    font-size: 110px;
     font-weight: 900;
     background-clip: text;
     background-size: 150%;
@@ -74,8 +76,20 @@ h1{
 
 .subtitle{
 
-    padding-left: 50px;
-    padding-top: 13%;
+    padding-top: 18%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+}
+
+#topictitle{
+
+    background: linear-gradient(45deg, rgb(22, 18, 11), rgb(251, 255, 11), rgb(22, 18, 11));
+    font-size: 80px;
+    font-weight: 900;
+    background-clip: text;
+    background-size: 150%;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 4s infinite ease-in-out;
 
 }
 
@@ -90,12 +104,12 @@ h1{
 
 .bgimage{
 
-    height: 65vh;
+    height: 70vh;
     width: 100vw;
     position: absolute;
     top: 100px;
     z-index: -1;
-
+    overflow: hidden;
 }
 
 .borderbgimage{
@@ -119,8 +133,10 @@ h1{
 
 .designs{
 
+    
     margin-top: 1%;
     font-size: xx-large;
+    text-align: center;
     font-weight: 800;
     color: white;
 
@@ -129,11 +145,12 @@ h1{
 .sidebuttons button{
 
     color: black;
-    font-size: x-large;
+    font-size: large;
     position: absolute;
     background-color: white;
     outline: none;
     margin-top: 20px;
+    font-size: 20px;
     font-weight: 700;
     width: 280px;
     height: 55px;
