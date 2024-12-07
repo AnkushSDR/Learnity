@@ -1,7 +1,7 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-analytics.js";
-import { getDatabase, ref, push, get, child } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-database.js";
+import { getDatabase, ref, push, get } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-database.js";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -20,33 +20,28 @@ const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 const database = getDatabase(app);
 
-document.addEventListener('keydown', function(event) {
-    if (event.key === 'Enter') {
-        submitReview();
-    }
-});
+let ratingvalue = null; // Define ratingvalue outside
 
 function submitReview() {
     const username = document.getElementById('user').value;
-    const value = document.querySelector('.star.checked')?.getAttribute('data-value');
 
-    if (!username && !value) {
-        alert('Please enter your name and provise us with a rating.');
-    } else if (!username) {
-        alert('Please enter your name.');
-    } else if (!value) {
-        alert('Please provide us with a rating.');
+    console.log("Username: ", username); // Debugging
+    console.log("Rating Value at submit: ", ratingvalue); // Debugging
+
+    if (!username || !ratingvalue) {
+        alert('Please enter your name and provide us with a rating.');
     } else {
         // Get the number of existing ratings
         get(ref(database, 'Ratings')).then((snapshot) => {
             if (snapshot.exists()) {
                 const ratingsCount = snapshot.size; // Get the count of existing ratings
-                const uniqueTitle = `User Rating: ${ratingsCount + 1}`; // Create a unique title
+                const ratingNumber = `Log Number: ${ratingsCount + 1}`; // Create a unique title
 
                 // Push new rating with the unique title
                 push(ref(database, 'Ratings'), {
-                    user: username,
-                    title: uniqueTitle
+                    Name: username,
+                    Number: ratingNumber,
+                    Stars: ratingvalue
                 }).then(() => {
                     alert('Rating submitted!');
                     window.location.reload();  // Refresh the page after ratings submission
@@ -62,6 +57,12 @@ function submitReview() {
     }
 }
 
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+        submitReview();
+    }
+});
+
 document.querySelectorAll('.star').forEach(star => {
     star.addEventListener('click', function() {
         document.querySelectorAll('.star').forEach(s => s.classList.remove('checked'));
@@ -72,6 +73,11 @@ document.querySelectorAll('.star').forEach(star => {
             previousSibling.classList.add('checked');
             previousSibling = previousSibling.previousElementSibling;
         }
+
+        // Update the rating value on star click
+        ratingvalue = this.getAttribute('data-value');
+
+        // Log selected star value for debugging
+        console.log('Selected star value:', ratingvalue);
     });
 });
-

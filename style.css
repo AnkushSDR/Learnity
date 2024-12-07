@@ -278,7 +278,7 @@ section{
 
 /* Rate Us Section Elements Config */
 
-.star { 
+.star{ 
     cursor: pointer; 
     position: relative;
     font-size: 2em; 
@@ -292,7 +292,7 @@ section{
     animation: jump .5s ease-in-out
 }
 .star:hover,
-.star.checked {
+.star.checked{
     color: goldenrod;
 }
 
