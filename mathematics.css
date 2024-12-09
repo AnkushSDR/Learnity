@@ -8,6 +8,11 @@ body{
     
 }
 
+.navigationbar{
+
+    background-color: black;
+}
+
 button{
 
     background: transparent;
@@ -120,7 +125,7 @@ button{
 
 }
 
-.titletext1{ 
+.titletext1{
     display: absolute;
     position: absolute; 
     text-align: left; 
@@ -167,7 +172,7 @@ button{
 
     margin-left: 3%;
     top: 10vh;
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: 800;
     color: white;
 
@@ -176,7 +181,7 @@ button{
 .sidebuttons button{
 
     color: black;
-    font-size: x-large;
+    font-size: large;
     position: absolute;
     background-color: white;
     outline: none;
@@ -249,9 +254,4 @@ p{
 
     max-height: 200vh;
     opacity: 1;
-}
-
-@media screen and (max-height: 1930px){
-
-    
 }

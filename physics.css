@@ -8,6 +8,11 @@ body{
 
 }
 
+.navigationbar{
+
+    background-color: black;
+}
+
 button{
 
     background: transparent;
