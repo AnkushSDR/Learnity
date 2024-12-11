@@ -14,10 +14,17 @@ html{
 }
 
 body {
+    
     animation: fadeAnim .5s ease-in-out;
     cursor:pointer;
     overflow-x: hidden;
     
+}
+
+img{
+
+    user-select: none;
+    -webkit-user-drag: none;
 }
 
 @media all{
