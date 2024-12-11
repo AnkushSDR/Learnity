@@ -31,7 +31,7 @@ body {
         width: 85vw;
         margin-top: 19vh;
         left: 26vw;
-
+        
     }
 
     .learnity-carousel .content {
@@ -286,6 +286,7 @@ body {
         position: relative;
         padding-left: .5vw;
         padding-right: .5vw;
+        overflow: hidden;
         font-size: 2.4em; 
         color: #ccc; 
         display: flex;
@@ -295,6 +296,7 @@ body {
     .star:hover{
         color: #f5b642;
         border: none;
+        overflow:hidden;
         outline: none;
         font-size: 2.4em;
 
@@ -303,6 +305,7 @@ body {
     .star.checked {
         color: #f5b642;
         border: none;
+        overflow: hidden;
         outline: none;
         text-shadow: .0vw .5vh 2vh gold;
         font-size: 2.7em;
@@ -420,6 +423,7 @@ body {
     .stars{
 
         display: flex;
+        
         justify-content: center;
         align-items: center;
         width: 23vw;

@@ -27,14 +27,17 @@
 
     overflow: hidden;
     border-radius: 59px;
-    height: 8vh;
-    width: 4.8vw;
+    max-height: 8vh;
+    max-width: 4.8vw;
+    min-height: 8vh;
+    min-width: 4.8vw;
+    left: 5vw;
+
 }
 
 .navigationbar .navbarlogo{
 
     position: absolute;
-    left: 5vw;
 }
 
 .navigationbar .navigationbutton {

@@ -84,35 +84,28 @@ button{
     background-size: 150%;
     -webkit-text-fill-color: transparent;
     animation: gradient 4s infinite ease-in-out;
-
-}
-
-.subtitle{
-
-    padding-top: 18%;
-    padding-bottom: 3%;
-    padding-left: 3%;
-}
-
-#topictitle{
-
-    background: linear-gradient(45deg, rgb(22, 18, 11), rgb(251, 255, 11), rgb(22, 18, 11));
-    font-size: 80px;
-    font-weight: 900;
-    background-clip: text;
-    background-size: 150%;
-    -webkit-text-fill-color: transparent;
-    animation: gradient 4s infinite ease-in-out;
-
-}
-
-.titletext1{ 
-    display: absolute;
+        display: absolute;
     position: absolute; 
     text-align: left; 
     padding-left: 1vw; 
     color: white; 
     top: 50vh; 
+
+}
+
+#topictitle{
+
+    background: linear-gradient(45deg, rgb(139, 107, 52), rgb(210, 212, 89), rgb(139, 107, 52));
+    font-size: 4vh;
+    font-weight: 900;
+    background-clip: text;
+    padding-top: 18%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    background-size: 150%;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 4s infinite ease-in-out;
+
 }
 
 .bgimage{
@@ -148,12 +141,41 @@ button{
 
     
     margin-top: 1%;
-    font-size: xx-large;
+    font-size: x-large;
     text-align: center;
     font-weight: 800;
     color: white;
 
 }
+
+.designs img{
+
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+.designs h3{
+
+    padding-right: 1vw;
+    background-color: rgba(184, 102, 25, 0.932);
+    border-radius: 20px;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+}
+
+.designs .dropdown-content h2{
+
+    padding-right: 1vw;
+    background-color: rgb(51, 51, 145);
+    border-radius: 20px;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+}
+
 
 .sidebuttons button{
 
@@ -163,7 +185,7 @@ button{
     background-color: white;
     outline: none;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     width: 280px;
     height: 55px;
@@ -179,7 +201,7 @@ button{
 
     color: white;
     background-color: black;
-    transition: .1s ease-in-out;
+    transition: .2s;
 
 }
 
@@ -221,9 +243,8 @@ button{
 
 
 p{
-
+    display: flex;
     margin-top: 2%;
-    font-family: Arial, sans-serif;
     margin-left: 2%;
     letter-spacing: .04cm;
 
