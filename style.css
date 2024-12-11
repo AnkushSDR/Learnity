@@ -460,17 +460,17 @@ body {
 
     .redball {
         top: 20vh;
-        left: -5.5vw;
+        left: -1.5vw;
     }
 
     .greenball {
-        bottom: 70vh;
+        bottom: 80vh;
         left: 71vw;
     }
 
     .blueball {
-        bottom: 1vh;
-        right: 10vw;
+        bottom: 10vh;
+        right: -1vw;
     }
 
 
