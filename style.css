@@ -456,7 +456,7 @@ img{
 
         background-color: #000000;
         max-height: 100vh;
-        max-width: fit-content;
+        max-width: 100vw;
         min-height: 100vh;
         min-width: 100vw;
 
@@ -677,6 +677,7 @@ img{
         
         position: absolute;
         font-weight: 700;
+        margin-bottom: 2vh;
         top: 44vh;
         animation: titleanimation 1s ease-in 1.5s normal forwards;
         z-index: 1;
