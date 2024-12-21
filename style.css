@@ -539,14 +539,12 @@ img{
         
     #credits .credits img{
         
-            height: 40vh;
             width: 20vw;
         
         }
 
     #credits .credits .personimage{
         overflow: hidden;
-        background-color: rgb(221, 171, 45);
     }
 
     #credits .credits .card1,

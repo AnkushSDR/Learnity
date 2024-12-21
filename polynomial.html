@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learnity</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="security.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="navigationbar.css">
+  <link rel="stylesheet" href="mathematics.css">
+</head>
+
+<body>
+
+  <!-- Background Image --> 
+
+  <div class="bgimage" style="background-image: url(mathematicsbackground.jpg);"></div>
+  <div class="borderbgimage" style="background-color: black;"></div>
+
+  <!-- Website Navigation Bar -->
+
+<nav class="navigationbar">
+
+    <div class="navbarlogo"><img src="LearnityNavBarLogo.png"></div>
+    <a href="index.html#home" class="navigationbutton">Home</a>
+    <a href="index.html#subjects" class="navigationbutton">Subjects</a>
+    <a href="index.html#credits" class="navigationbutton">Credits</a>
+    <a href="index.html#rateus" class="navigationbutton">Feedbacks</a>
+
+</nav>
+
+  <!-- Website Title  -->
+
+  <div class="subtitle">
+
+    <h1 id="topictitle1">Polynomials</h1>    
+    
+  </div>
+
+<section class="regrouping">
+</section>
+
+<div class="topics">
+
+    <div class="designs" style="padding-top: 20%;">1. Introduction to Polynomials
+
+        <div class="sidebuttons">
+            <button onclick="toggleDropdown('A1')" class="openbutton" aria-controls="A1" aria-expanded="false">Learn About This Topic</button>
+            <button onclick="toggleDropdown('A2')" class="openbutton" aria-controls="A2" aria-expanded="false">Examples & Solutions</button>
+            <button onclick="toggleDropdown('A3')" class="openbutton" aria-controls="A3" aria-expanded="false">Practice Papers</button>
+        </div>
+
+            <div class="dropdown-content" id="A1">
+                <p><h2>What is constant?</h2></p>
+                <p><h2>What is variable?</h2></p>
+                <p><h2>What is algebraic expression?</h2></p>
+                <p><h2>What is standard property of polynomial?</h2></p>
+                <p><h2>Important Points on Polynomials</h2></p>
+            </div>
+
+            <div class="dropdown-content" id="A2">
+                <p><h2>Examples Regarding The Topic</h2></p>
+            </div>
+
+            <div class="dropdown-content" id="A3">
+                <p><h2>Practice Questions</h2></p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="designs">2. Polynomial of Various Degrees 
+
+        <div class="sidebuttons">
+            <button onclick="toggleDropdown('B1')" class="openbutton" aria-controls="B1" aria-expanded="false">Learn About This Topic</button>
+            <button onclick="toggleDropdown('B2')" class="openbutton" style="margin-left: .5%;" aria-controls="B2" aria-expanded="false">Examples & Solutions</button>
+            <button onclick="toggleDropdown('B3')" class="openbutton" style="margin-left: .5%;" aria-controls="B3" aria-expanded="false">Practice Papers</button></div>
+        
+            <div class="dropdown-content" id="B1">
+                <p><h2>Degrees of Polynomial</h2></p>
+                <p><h3>Linear Polynomial</h2></p>
+                <p><h3>Quadratic Polynomial</h2></p>
+                <p><h3>Cubic Polynomial</h2></p>
+                <p><h3>Biquadratic Polynomial</h2></p>
+                <p><h2>Number of Terms in a Polynomial</h2></p>
+                <p><h3>Monomial</h2></p>
+                <p><h3>Binonomial</h2></p>
+                <p><h3>Trinomial</h2></p>
+                <p><h2>Other Types of Polynomial</h2></p>
+                <p><h3>Constant Polynomial</h2></p>
+                <p><h3>Zero Polynomial</h2></p>
+
+            </div>
+
+            <div class="dropdown-content" id="B2">
+                <p><h2>Examples Regarding The Topic</h2></p>
+
+            </div>
+
+            <div class="dropdown-content" id="B3">
+                <p><h2>Practice Questions</h2></p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="designs">3. Factor Theorem 
+    
+        <div class="sidebuttons">
+            <button onclick="toggleDropdown('D1')" class="openbutton" aria-controls="D1" aria-expanded="false">Learn About This Topic</button>
+            <button onclick="toggleDropdown('D2')" class="openbutton" style="margin-left: .5%;" aria-controls="D2" aria-expanded="false">Examples & Solutions</button>
+            <button onclick="toggleDropdown('D3')" class="openbutton" style="margin-left: .5%;" aria-controls="D3" aria-expanded="false">Practice Papers</button></div>
+        
+            <div class="dropdown-content" id="D1">
+                <p><h2>Proving the formula (a + b + c)²</h2></p>
+            </div>
+
+            <div class="dropdown-content" id="D2">
+                <p><h2>Examples Regarding The Topic</h2></p>
+            </div>
+
+            <div class="dropdown-content" id="D3">
+                <p><h2>Practice Questions</h2></p>
+            </div>
+
+        </div>
+    </div>
+    
+    <div class="designs">4. Division Algorithm
+    
+        <div class="sidebuttons">
+                <button onclick="toggleDropdown('E1')" class="openbutton" aria-controls="E1" aria-expanded="false">Learn About This Topic</button>
+                <button onclick="toggleDropdown('E2')" class="openbutton" style="margin-left: .5%;" aria-controls="E2" aria-expanded="false">Examples & Solutions</button>
+                <button onclick="toggleDropdown('E3')" class="openbutton" style="margin-left: .5%;" aria-controls="E3" aria-expanded="false">Practice Papers</button></div>
+        
+            <div class="dropdown-content" id="E1">
+                <p><h2>Proof of the formula (a + b)²</h2></p>
+            </div>
+
+            <div class="dropdown-content" id="E2">
+                <p><h2>Examples Regarding The Topic</h2></p>
+            </div>
+
+            <div class="dropdown-content" id="E3">
+            </div>
+        </div>
+    </div>
+        
+    <div class="designs">5. Remainder Theorem
+    
+        <div class="sidebuttons">
+            <button onclick="toggleDropdown('G1')" class="openbutton" aria-controls="G1" aria-expanded="false">Learn About This Topic</button>
+            <button onclick="toggleDropdown('G2')" class="openbutton" style="margin-left: .5%;" aria-controls="G2" aria-expanded="false">Examples & Solutions</button>
+            <button onclick="toggleDropdown('G3')" class="openbutton" style="margin-left: .5%;" aria-controls="G3" aria-expanded="false">Practice Papers</button></div>
+        
+            <div class="dropdown-content" id="G1">
+                <p><h2>Proof of the formula (a³ + b³) </h2></p>
+            </div>
+
+            <div class="dropdown-content" id="G2">
+                <p><h2>Proof of the formula (a³ + b³) </h2></p>
+            </div>
+
+            <div class="dropdown-content" id="G3"> 
+                <p><h2>Practice Questions</h2></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="designs">6. Zeros of a Polynomial
+    
+        <div class="sidebuttons">
+            <button onclick="toggleDropdown('G1')" class="openbutton" aria-controls="G1" aria-expanded="false">Learn About This Topic</button>
+            <button onclick="toggleDropdown('G2')" class="openbutton" style="margin-left: .5%;" aria-controls="G2" aria-expanded="false">Examples & Solutions</button>
+            <button onclick="toggleDropdown('G3')" class="openbutton" style="margin-left: .5%;" aria-controls="G3" aria-expanded="false">Practice Papers</button></div>
+        
+            <div class="dropdown-content" id="G1">
+                <p><h2>Proof of the formula (a³ + b³) </h2></p>
+            </div>
+
+            <div class="dropdown-content" id="G2">
+                <p><h2>Examples & Solution</h2></p>
+            </div>
+
+            <div class="dropdown-content" id="G3"> 
+                <p><h2>Practice Questions</h2></p>
+            </div>
+        </div>
+    </div>
+
+</div>
+  <script>
+
+function toggleDropdown(id) {
+            const content = document.getElementById(id);
+            const isVisible = content.classList.contains('show');
+            document.querySelectorAll('.dropdown-content').forEach(dropdown => {
+                dropdown.classList.remove('show');
+            });
+            if (!isVisible) {
+                content.classList.add('show');
+            }
+        }
+
+  </script>
+
+</body>
+</html>

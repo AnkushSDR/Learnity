@@ -1,6 +1,6 @@
 document.addEventListener("contextmenu", function(event){
 
     event.preventDefault()
-    alert("You are not permitted to perform this action.")
+    alert("Doya koria right click chipia lojja diben na noy to guli maria uriya dibo.")
 
 });
