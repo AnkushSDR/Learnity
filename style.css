@@ -27,7 +27,7 @@ img{
     -webkit-user-drag: none;
 }
 
-@media all{
+@media screen and (min-width: 600px) and (max-width: 1800px){
 
     /* Carousel Configuration */
 
