@@ -242,7 +242,7 @@ button{
 }
 
 
-p{
+.designs p{
     display: flex;
     margin-top: 2%;
     margin-left: 2%;

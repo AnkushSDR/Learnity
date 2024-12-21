@@ -26,11 +26,10 @@
 .navigationbar .navbarlogo img, .navigationbar .navbarlogo{
 
     overflow: hidden;
-    border-radius: 59px;
+    border-radius: 5em;
     max-height: 8vh;
-    max-width: 4.8vw;
-    min-height: 8vh;
-    min-width: 4.8vw;
+    min-height: 9vh;
+    min-width: fit-content;
     left: 5vw;
 
 }

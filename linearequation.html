@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learnity</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="security.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="navigationbar.css">
+  <link rel="stylesheet" href="mathematics.css">
+  <link rel="icon" href="TitleBarLogo.png">
+
+</head>
+
+<body>
+
+  <!-- Background Image --> 
+
+  <div class="bgimage" style="background-image: url(mathematicsbackground.jpg);"></div>
+  <div class="borderbgimage" style="background-color: black;"></div>
+
+  <!-- Website Navigation Bar -->
+
+<nav class="navigationbar">
+
+    <div class="navbarlogo"><img src="LearnityNavBarLogo.png"></div>
+    <p> Learnity </p>
+    <a href="index.html#home" class="navigationbutton">Home</a>
+    <a href="index.html#subjects" class="navigationbutton">Subjects</a>
+    <a href="index.html#credits" class="navigationbutton">Credits</a>
+    <a href="index.html#rateus" class="navigationbutton">Feedbacks</a>
+
+</nav>
+
+  <!-- Website Title  -->
+
+  <div class="subtitle">
+
+    <h1 id="topictitle1">Linear Equation In Two Variables</h1>    
+    
+  </div>
+
+<section class="regrouping">
+</section>
+
+<div class="topics">
+
+    <div class="designs" style="padding-top: 20%;">1. Introduction to Linear Equation In Two Variables
+
+        <div class="sidebuttons">
+            <button onclick="toggleDropdown('A1')" class="openbutton" aria-controls="A1" aria-expanded="false">Learn About This Topic</button>
+            <button onclick="toggleDropdown('A2')" class="openbutton" aria-controls="A2" aria-expanded="false">Examples & Solutions</button>
+            <button onclick="toggleDropdown('A3')" class="openbutton" aria-controls="A3" aria-expanded="false">Practice Papers</button>
+        </div>
+
+            <div class="dropdown-content" id="A1">
+                <p><h2>What is linear equation in two variables?</h2></p>
+                <p>An equation in the form ax + by + c = 0, where a, b and c are real number such that a is not equal to 0 and b is not equal to 0, is called a linear equation in two variables x and y. <br></p>
+                <p>For example, each of the following are linear equations in two variables x and y,
+                    <ol type="i">
+                        <li>2x + 3y - 12 = 0</li>
+                        <li>4x - y + 5 = 0</li>
+                        <li>√2x - √3y - 9 = 0</li>
+                    </ol>
+                </p>
+                <p><h2>Solutions of Linear Equations</h2></p>
+                <p>Let ax + by + c = 0 be a given linear equation in x and y. Then a pair of values, one for x and one for y, <b>which satisfy the given equation is called is solution.</b><br><em>If x = α and y = β satisfy the equation ax + by + c = 0 then we say that the ordered pair (α,β) is its solution.</em></p>
+            </div>
+
+            <div class="dropdown-content" id="A2">
+                <p><h2>Examples Regarding The Topic</h2></p>
+                <p>
+                    <b>Example 1:</b> Write each of the following equations in the form ax + by + c = 0 and indicate the values of a, b and c in each case.</b><br><br>
+                    <ol type="i" style="display: flex;gap: 2vw;"><li>x = 4y</li><li>x/3 - y/2 = 5</li><li>4y - 3</li><li>πx + y = 6</li></ol><br>
+                    <em>Solution:</em><br><br>
+                    
+                    (i) x = 4y ⇒ x - 4y = 0 <br>
+                    ⇒ x - 4y + 0 = 0.<br>
+                    This is of the form ax + by + c = 0, where a = 1, b = -4 and c = 0.<br><br>
+
+                    (ii) x/3 - y/2 = 5 ⇒ 2x - 3y = 30.<br>
+                    This is of the form ax + by + c = 0, where a = 2, b = -3 and c = -30.<br><br>
+
+                    (iii) 4y - 3 = √2x ⇒ √2x - 4y + 3 = 0.<br>
+                    This is of the form ax + by + c = 0, where a = √2, b = -4 and c = 3.<br><br>
+
+                    (iv) πx + y = 6 ⇒ πx + y - 6 = 0.<br>
+                    This is of the form ax + by + c = 0, where a = π, b = 1 and c = -6.<br>
+                </p>
+
+                <p>
+                    <b>Example 2:</b> Write each of the following as an equation of the form ax + by + c = 0 and write the values of a, b and c in each case.<br><br>
+                    <ol type="i" style="display: flex;gap: 2vw;"><li>x = -3</li><li> y = 5</li><li>3x = 2</li><li> 5y = 4</li></ol><br>
+                    <em>Solution:</em> <br><br>
+                    (i) x = -3 ⇒ x + 3 = 0
+                    ⇒ 1x + 0 x y + 3 = 0.
+                    This is of the form ax + by + c = 0, where a = 1, b = 0 and
+                    c = 3.
+                    (ii) y = 5 ⇒ y - 5 = 0
+                    ⇒ 0x + 1 x y - 5 = 0.
+                    This is of the form ax + by + c = 0, where a = 0, b = 1 and
+                    c = -5.
+                    (iii) 3x = 2 ⇒ 3x - 2 = 0
+                    ⇒ 3x + 0 x y - 2 = 0.
+                    This is of the form ax + by + c = 0, where a = 3, b = 0 and
+                    c = -2.
+                    (iv) 5y = 4 ⇒ 5y - 4 = 0
+                    ⇒ 0x + 5y - 4 = 0.
+                    This is of the form ax + by + c = 0, where a = 0, b = 5 and
+                    c = -4.
+                </p>
+                <p>
+                    <b>Example 3:</b> Show that x = 3 and y = 2 is a solution of the linear equation 2x + 3y = 12.<br><br>
+                    <em>Solution:</em> <br><br>
+                    The given linear equation is 2x + 3y - 12 = 0. ... (i)<br>
+                    Substituting x = 3 and y = 2 in (i), we get,<br>
+                    LHS = (2 x 3 + 3 x 2 - 12) = (6 + 6 - 12) = 0 = RHS.<br>
+                    Therefore, x = 3 and y = 2 is a solution of the equation 2x + 3y = 12.<br>
+                    We may say that (3, 2) is a solution of the equation 2x + 3y = 12.<br>
+                </p>
+
+                <p>
+                    <b>Example 4:</b> Check which of the following are solutions of the equation x - 2y = 4 and which are not.<br><br>
+                    <ol type="i" style="display: flex;gap: 2vw;"><li>(2, 0)</li><li>(0, -2)</li><li>(4√2, √2)</li><li>(4, 0)</li></ol><br>
+                    <em>Solution:</em> <br><br>
+                    The given equation may be written as x - 2y - 4 = 0. ...(A)<br>
+                    (i) Putting x = 2 and y = 0 in (A), we get<br>
+                    LHS = (2 - 2 x 0 - 4) = (2 - 0 - 4) = -2 ≠ 0 = RHS.<br>
+                    Therefore, (2, 0) is not a solution of x - 2y = 4.<br><br>
+                    (ii) Putting x = 0 and y = -2 in (A), we get<br>
+                    LHS = (0 - 2 x (-2) - 4) = (0 + 4 - 4) = 0 = RHS.<br>
+                    Therefore, (0, -2) is a solution of x - 2y = 4.<br><br>
+                    (iii) Putting x = 4√2 and y = √2 in (A), we get<br>
+                    LHS = (4√2 - 2 x √2 - 4) = (4√2 - 2√2 - 4)<br>
+                    = (2√2 - 4) ≠ 0 = RHS.<br>
+                    Therefore, (4√2, √2) is not a solution of x - 2y = 4.<br><br>
+                    (iv) Putting x = 4 and y = 0 in (A), we get<br>
+                    LHS = (4 - 2 x 0 - 4) = (4 - 0 - 4) = 0 = RHS.<br>
+                    Therefore, (4, 0) is a solution of x - 2y = 4.<br>
+
+                </p>
+
+            </div>
+
+            <div class="dropdown-content" id="A3">
+                <p><h2>Practice Questions</h2></p>
+                <p>
+                    <b>Question 1: </b> Express each of the following equations in the form ax + by + c = 0 and indicate the values of a, b, c in each case.<br><br>
+                    (i) 3x + 5y= 7.5<br>
+                    (ii) 2x - y/5 + 6  = 0<br>
+                    (iii) 3y - 2x = 6<br>
+                    (iv) 4x = 5y<br>
+                    (v) 5 - 6=1<br>
+                    (vi) √2x + √3y = 5<br><br>
+
+                    <b>Question 2:</b> Express each of the following equations in the form ax + by + c = 0 and indicate the values of a, b, c in each case. <br><br>
+                    (i) x = 6<br>
+                    (ii) 2x + 9 = 0<br>
+                    (iii) 3x - y = x - 1<br>
+                    (iv) 4y = 7<br>
+                    (v) x + y = 4<br>
+                    (vi) x/2 - y/3 = 1/6 + y<br><br>
+
+                    <b>Question 3:</b> Check which of the following are the solutions of the equation 5x-4y=20.<br><br>
+                    (i) (4,0) <br>
+                    (ii) (0,5)<br>
+                    (iii) (-2, 5/2)<br>
+                    (iv) (0,-5)<br>
+                    (v) (2, -5/2)<br><br>
+
+                    <b>Question 4:</b> Find five different solutions of each of the following equations: <br><br>
+                    (a) 2x - 3y = 6<br>
+                    (b) 2x/5 + 3y/10 = 3<br>
+                    (c) 3y = 4x<br><br>
+
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="designs">2. Graph of Linear Equation in Two Variable
+
+        <div class="sidebuttons">
+            <button onclick="toggleDropdown('B1')" class="openbutton" aria-controls="B1" aria-expanded="false">Learn About This Topic</button>
+            <button onclick="toggleDropdown('B2')" class="openbutton" style="margin-left: .5%;" aria-controls="B2" aria-expanded="false">Examples & Solutions</button>
+            <button onclick="toggleDropdown('B3')" class="openbutton" style="margin-left: .5%;" aria-controls="B3" aria-expanded="false">Practice Papers</button></div>
+        
+            <div class="dropdown-content" id="B1">
+                <p><h2>Method of drawing a graph of ax + by + c = 0, a ≠ =, b ≠ 0</h2></p>
+                <p><em>
+                        Step 1. Express y in terms of x. <br>
+                        Step 2. Choose some convenient values of x and find the corresponding<br>
+                        values of y satisfying the given equation.<br>
+                        Step 3. Write down these values of x and y in the form of a table.  <br>
+                        Step 4. Plot the ordered pairs (x, y) from the table on a graph paper.  <br>          
+                        Step 5. Join these points by a straight line and extend it in both the directions.<br>
+                        This line is the required graph of the equation ax + by + c = 0.<br>
+                    </em>
+                </p>
+            </div>
+
+            <div class="dropdown-content" id="B2">
+                <p><h2>Examples Regarding The Topic</h2></p>
+                <p>
+                    <b>Example 1:</b> Draw the graph of the equation 2x -y + 3 =0. Using the graph, find the value of y when (a) x = 2, (b) x = - 3.<br><br>
+                    <ol type="i" style="display: flex;gap: 2vw;"><li>(2, 0)</li><li>(0, -2)</li><li>(4√2, √2)</li><li>(4, 0)</li></ol><br>
+                    <em>Solution:</em> <br><br>
+                    2x - y + 3 = 0 => y = 2x + 3. ... (i)<br>
+                    Putting x=0 in (i), we get y =(2×0+3)=3.<br>
+                    Putting x=1 in (i), we get y =(2×1+3)=5.<br>
+                    Putting x = -1 in (i), we get y =[2×(-1)+3]= 1.<br>
+                    Putting x = -2 in (i), we get y =[2×(-2)+3] = 1<br><br>
+                    Thus, we have the following table:<br><br>
+                    <table>
+                        <tr>
+                            <td style="background-color: grey;">x</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>-1</td>
+                            <td>-2</td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: grey;">y</td>
+                            <td>3</td>
+                            <td>5</td>
+                            <td>1</td>
+                            <td>-1</td>
+                        </tr>
+                    </table><br><br>
+                    On a graph paper, draw lines X'OX and YOY' representing the x-axis and the y-axis respectively.<br>
+                    On this graph paper, plot the points A(0, 3), B(1, 5), C(-1, 1) and D(-2,-1). Join AB, AC and CD to get a straight line BACD. Produce it in both ways to get the required graph.<br><br>
+                    (a) On the x-axis, we take a point P for which x = 2, i.e., OP=2.<br>
+                    From P, draw PE ⊥ X'OX, meeting the graph line BACD produced at E. Then, E(2, 7) shows that,<br>
+                    (x = 2 => y = 7), i.e., when x = 2, then y = 7.<br><br>
+                    (b) On the x-axis, we take a point Q for which x = -3, i.e., OQ=3 units.<br>
+                    From Q, draw QF ⊥ X'OX, meeting the graph line BACD produced at F. Then, F(-3, -3) shows that,<br>
+                    (x = -3 => y = -3), i.e., when x = -3, then y = -3.<br><br>
+                </p>
+
+
+            </div>
+
+            <div class="dropdown-content" id="B3">
+                <p><h2>Practice Questions</h2></p>
+                <p>
+                    <b>Question 1:</b> Draw the graph of each of the following equations.<br>
+                    <ol type="i" style="display: flex;gap: 2vw;"><li>x = 4</li><li>x + 4 = 0</li><li> y = 3</li><li>y = -3</li><li> x = -2</li><li>x = 5</li><li>y + 5 = 0</li><li>y = 4</li></ol><br>
+
+                    <b>Question 2:</b> Draw the graph of the equation y = 3x.<br>
+                    From your graph, find the value of y when (i) x - 2 and (ii) x = -2,<br><br>
+
+                    <b>Question 3:</b> Draw the graph of the equation x + 2y - 3 = 0. <br>
+                    From your graph, find the value of y when (i) x = 5 and (ii) x = -5, <br><br>
+
+                    <b>Question 4:</b> Draw the graph of the equation 2x = 3y = 5. <br>
+                    From your graph, find the value of y when (i) x = 4 and (ii) y = 3, <br><br>
+
+                    <b>Question 5:</b> Draw the graph of the equation 2x + y = 6. <br>
+                    Find the coordinates of the point where the graph cuts the x-axis,<br><br>
+
+                    <b>Question 6:</b> Draw the graph of the equation 3x + 2y = 6. <br>
+                    Find the coordinates of the point where the graph cuts the y-axis, <br><br>
+
+                    <b>Question 7:</b> Draw the graph of the equations 3x - 2y = 4 and x + y - 3 = 0. <br>
+                    On the same graph paper, find the coordinates of the point where the two graph lines intersect.<br><br>
+
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+  <script>
+
+function toggleDropdown(id) {
+            const content = document.getElementById(id);
+            const isVisible = content.classList.contains('show');
+            document.querySelectorAll('.dropdown-content').forEach(dropdown => {
+                dropdown.classList.remove('show');
+            });
+            if (!isVisible) {
+                content.classList.add('show');
+            }
+        }
+
+  </script>
+
+</body>
+</html>

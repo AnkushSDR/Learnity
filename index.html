@@ -13,6 +13,7 @@
     <script src="security.js"></script>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="navigationbar.css">
+  <link rel="icon" href="TitleBarLogo.png">
 </head>
 
 <body style="background-color: black;overflow:hidden;">
@@ -28,6 +29,16 @@
     
     </nav>
     
+<section class="intro" id="introsectionfade">
+
+    <span id="logo"><img src="LearnityLogo.png"></span>
+    <span id="welcometext">Welcome to,</span>
+    <span id="divider"></span>
+    <span id="webtitle">Learnity</span>
+    <span id="webslogan">Education For All</span>
+    <span id="closebutton"><button onclick="toggleAnim('introsectionfade')">Start learning without any delay<span id="arrow">➔</span></button></span>
+
+</section>
 
 <section id="home" style="background-color: #000000;">
     <!-- Images -->
@@ -37,7 +48,7 @@
     <img src="blueball.png" class="blueball">
     <img src="greenball.png" class="greenball">
 
-  <!-- Website Navigation Bar --
+  <!-- Website Navigation Bar -->
 
 
   <!-- Website Title  -->
@@ -265,6 +276,10 @@
     typesubtitle();
     typequalities();
 });  
+
+function toggleAnim(id) {
+    document.getElementById(id).classList.toggle("fade");
+}
 </script>
   
 
