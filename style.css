@@ -4,6 +4,9 @@
 html{
 
     scroll-behavior: smooth;
+    user-select: none;
+    -webkit-user-drag: none;
+
 }
 
 * {
@@ -19,12 +22,6 @@ body {
     cursor:pointer;
     overflow-x: hidden;
     
-}
-
-img{
-
-    user-select: none;
-    -webkit-user-drag: none;
 }
 
 @media screen and (min-width: 600px) and (max-width: 1800px){
