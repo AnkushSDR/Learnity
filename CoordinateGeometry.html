@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learnity</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="security.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="navigationbar.css">
+  <link rel="stylesheet" href="mathematics.css">
+  <link rel="icon" href="TitleBarLogo.png">
+
+</head>
+
+<body>
+
+  <!-- Background Image --> 
+
+  <div class="bgimage" style="background-image: url(mathematicsbackground.jpg);"></div>
+  <div class="borderbgimage" style="background-color: black;"></div>
+
+  <!-- Website Navigation Bar -->
+
+<nav class="navigationbar">
+
+    <div class="navbarlogo"><img src="LearnityNavBarLogo.png"></div>
+    <p> Learnity </p>
+    <a href="index.html#home" class="navigationbutton">Home</a>
+    <a href="index.html#subjects" class="navigationbutton">Subjects</a>
+    <a href="index.html#credits" class="navigationbutton">Credits</a>
+    <a href="index.html#rateus" class="navigationbutton">Feedbacks</a>
+
+</nav>
+
+  <!-- Website Title  -->
+
+  <div class="subtitle">
+
+    <h1 id="topictitle1">Coordinate Geometry</h1>    
+    
+  </div>
+
+<section class="regrouping">
+</section>
+
+<div class="topics">
+
+    <div class="designs" style="padding-top: 20%;">1. Introduction to Coordinate Geometry
+
+        <div class="sidebuttons">
+            <button onclick="toggleDropdown('A1')" class="openbutton" aria-controls="A1" aria-expanded="false">Learn About This Topic</button>
+
+            <div class="dropdown-content" id="A1">
+                <p>The French mathematician Rene Descartes in 1637 introduced the Cartesian system of coodinates for describing the position of a point in a plane. This idea has given rise to an important branch of mathematics, known as Coodinate Geometry.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="designs">2. Cartesian Coordinate
+
+        <div class="sidebuttons">
+            <button onclick="toggleDropdown('B1')" class="openbutton" aria-controls="B1" aria-expanded="false">Learn About This Topic</button>
+
+            <div class="dropdown-content" id="B1">
+                <p><h2>Ordered Pair</h2></p>
+                <p><em>A pair of number a and b listed in a specific order with a at the first place and b at the seconds place is calaled an ordered pair (a, b).</em> Note that (a, b) is not equal to (b, a). Thus, (2, 3) is one ordered pair and (3, 2) is another ordered pair.</p>
+                <p><h2>What is Coordinate Geometry</h2></p>
+                <p>We represent each point in a plane by means of an ordered pair of real numbers, called coordinates of that point. <br> The branch of mathematics in which geometric problems are solved through algebra by using the coordinate system is known <u>coordinate geometry</u>.</p><br>
+            </div>
+
+        </div>
+    </div>
+    
+    <div class="designs">3. Coordinate System
+    
+        <div class="sidebuttons">
+            <button onclick="toggleDropdown('D1')" class="openbutton" aria-controls="D1" aria-expanded="false">Learn About This Topic</button>        
+
+                <div class="dropdown-content" id="D1">
+                    <p><h2>Coordinate Axes</h2></p>
+                    <p><em>The position of point in a plane is determined with reference to two fixed mutually perpendicular line, called the coordinate axes.</em><br> Let us draw two line X'OX YOY' which are perpendicular to each other and intersect at the point O. <br> These lines are called the <i>coordinate axes or the axes of reference</i>. The horizontal line X'OX is called the <i>x-axis</i>. The vertical line YOY' is called the <i>y-axis</i>. The point O is called the <i>origin</i>. We can fix a convenient unit of length and taking the origin as zero, mark equal distances on the x-axis as well as on the y-axis.</p>
+                    <p><h2>Convention Of Signs</h2></p>
+                    <p>The distances measured along OX and OY are taken as positive and those along OX' and OY' are taken as negative.</p><br>
+                    <img src="graphpicture.png">
+                </div>
+
+        </div>
+    </div>
+
+    <div class="designs">4. Coordinate Of A Point In A Plane
+    
+        <div class="sidebuttons">
+            <button onclick="toggleDropdown('E1')" class="openbutton" aria-controls="E1" aria-expanded="false">Learn About This Topic</button>
+            <button onclick="toggleDropdown('E2')" class="openbutton" aria-controls="E2" aria-expanded="false">Examples & Solutions</button>
+        
+            <div class="dropdown-content" id="E1">
+                <p>Let P be a point in a plane. Let the distance of P from the y-axis = a units. And, the distance of P from the x-axis = b units. Then, we say that the coordinates of P are (a, b). a is called the x-coordinate or <i>abscissa</i> of P. b is called the y-coordinate or <i>ordinate</i> of P.</p>
+                <img src="pointsongraph.png">
+                <p><h2>Quadrants</h2></p>
+                <p>Let X'OX and YOY' be the coordinate axes. These axes divide the plane of the paper into four regions, called <i>quadrants</i>. The regoins XOY, YOX', X'OY' and Y'OX are respectively known as the first, second, third and fourth quadrants. Using the convention of signs, we have the signs of the coordinates in various quadrants given below.
+                <table id="coordinategeometrytable">
+                    <tr>
+                        <th>Region</th>
+                        <th>Quadrant</th>
+                        <th>Nature of x and y</th>
+                        <th>Signs of coordinates</th>
+                    </tr>
+                    <tr>
+                        <td>XOY</td>
+                        <td>I'</td>
+                        <td>x > 0, y > 0</td>
+                        <td>(+,+)</td>
+                    </tr>
+                    <tr>
+                        <td>YOX'</td>
+                        <td>II</td>
+                        <td>x < 0, y > 0</td>
+                        <td>(-,+)</td>
+                    </tr>
+                    <tr>
+                        <td>X'OY'</td>
+                        <td>III</0></td>
+                        <td>x < 0, y < 0</td>
+                        <td>(-,-)</td>
+                    </tr>
+                    <tr>
+                        <td>Y'OX</td>
+                        <td>IV</td>
+                        <td>x > 0, y < 0</td>
+                        <td>(-, -)</td>
+                    </tr>
+                </table>
+                </p>
+                <img src="coordinategeometryquadrantpicture.png">
+                <p><em>NOTE Any point lying on the x-axis or y-axis does not lie in any quadrant.</em></p>
+            </div>
+
+            <div class="dropdown-content" id="E2">
+                <p><h2>Examples and Solutions</h2></p>
+                <p><em><b>Example 1:</b> Draw the lines X'OX and YOY' as axes on the plane of a graph paper and plot the points given below.</em><br>
+                    <ol type="i" style="display: flex;gap: 2vw;"><li>A(5,3)</li><li>B(-3, 2)</li><li>C(-5, -4)</li><li>D(2, -6)</li></ol><br>
+                </p>
+                <p><b>Solution: </b><br>
+                Let X'OX and YOY' be the coordinate axes. <br>
+                Fix a convenient unit of length and starting from O, mark equal distances on OX, OX', OY, and OY'. Use the convention signs.<br>
+                (i) Starting from O, take +5 units on the x-axis and then +3 units on the y-axis to obtain the point A(5,3).<br>
+                (ii) Starting from O, take -3 units on the x-axis and then +2 units on the y-axis to obtain the point B(-3,2). <br>
+                (iii) Starting from O, take -5 units on the x-axis and then -4 units on the y-axis to obtain the point C(-5,-4). <br>
+                (iv) Starting from O, take 2 units on the x-axis and then units on the y-axis to obtain the point D(2, -6). <br>
+                </p>
+                <img src="CGExample1.png">
+                <p><br>
+                <p><em><b>Example 2:</b>In which quadrants do the given points lie?</em><br>
+                    <ol type="i" style="display: flex;gap: 2vw;"><li>(4, -2)</li><li>(-3, 7)</li><li>(-1, -2)</li><li>(3, 6)</li></ol><br>
+                    <p><b>Solution: </b><br>
+                        (i) Points of the type (+, -) lie in the 4th quadrant. <br> Hence, the point (4, -2) lies in the quadrant IV.<br><br>
+                        (ii) Points of the type (-,+) lie in the 2nd quadrant. <br> Hence, the point (-3,7) lies in the quadrant II. <br><br>
+                        (iii) Points of the type (-, -) lie in the 3rd quadrant. <br> Hence, the point (-1, 1) lies in the quadrant III. <br><br>
+                        (iv) Points of the type (+, +) lie in the 1st quadrant. <br> Hence, the point (3,6) lies in the quadrant I. <br><br>
+                    </p>
+        
+                <p><em><b>Example 3:</b>Write down the coordinates of each of the points P, Q, R, S and T as shown in the figure given below.</em><br>
+                    <img src="CGExample3.png">
+                    <p><b>Solution: </b><br>
+                        Draw perpendiculars PL, QM, RN, SU and TV on the x-axis.<br>
+                        (i) The distance of P from the y-axis = OL = 2 units.<br>The distance of P from the x-axis = LP = 4 units. <br> Hence, the coordinates of P are (2,4).<br>
+                        (ii) The distance of Q from the y-axis = OM = 4 units <br> The distance from Q from the x-axis = MQ = 2 units. <br> Hence the coordinates of Q are (4, 2).<br>
+                        (iii) The distance of R from the y-axis = ON = 2 units. <br> The distance of R from the x-axis = NR = 3 units. <br> Hence, the coordinates of R are (-2, 3).<br>
+                        (iv) The distance of S from the y-axis = OU = 5 units. <br> The distance of S from the x-axis = US = -3 units. <br> Hence the coordinates of S are (5, -3).<br>
+                        (v) The distance of T from the y-axis = OV = -4 units. <br> The distance of T from the x-axis = VT = -1 units. <br> Hence the coordinates of S are (-4, -1).<br>
+                    </p>
+                </div>
+
+        </div>
+    </div>
+
+    <div class="designs">5. Practice Papers
+    
+        <div class="sidebuttons">
+            <button onclick="toggleDropdown('E1')" class="openbutton" aria-controls="E1" aria-expanded="false">Learn About This Topic</button>
+        
+            <div class="dropdown-content" id="E1">
+                1. On the plane of a graph paper draw X'OX and YOY' as coordinte axes and plot each of the following points.<br>
+                <ol type="i" style="display: flex;gap: 2vw;"><li>A(5, 3)</li><li>B(6, 2)</li><li>C(-5, 3)</li><li>D(4, -6)</li><li>E(-3, -2)</li><li>F(-4, 4)</li><li>G(3, -4)</li><li>H(5, 0)</li><li>I(0,6)</li><li>J(-3,0)</li><li>K(0, -2)</li><li>O(0, 0)</li></ol><br>
+                2. Write down the coordinates of each of the following points A, B, C, D and E. <br>
+                <img src="CGExercise1.png"><br>
+                3. For each of the following points, write the quadrant in which it lies. <br>
+                <ol type="i" style="display: flex;gap: 2vw;"><li>(-6, 3)</li><li>(-5, -3)</li><li>(11, 6)</li><li>D(1, -4)</li><li>(-7, -4)</li><li>(4, -1)</li></ol><br>
+                4. Write the axis in which the given point lies. <br>
+                <ol type="i" style="display: flex;gap: 2vw;"><li>(2, 0)</li><li>(0, -5)</li><li>(-3, 8)</li><li>D(0, -1)</li></ol><br>
+                
+            </div>
+        </div>
+    </div>
+
+</div>
+
+  <script>
+
+function toggleDropdown(id) {
+            const content = document.getElementById(id);
+            const isVisible = content.classList.contains('show');
+            document.querySelectorAll('.dropdown-content').forEach(dropdown => {
+                dropdown.classList.remove('show');
+            });
+            if (!isVisible) {
+                content.classList.add('show');
+            }
+        }
+
+  </script>
+
+</body>
+</html>

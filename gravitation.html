@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learnity</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="security.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="navigationbar.css">
+  <link rel="stylesheet" href="physics.css">
+  <link rel="icon" href="TitleBarLogo.png">
+
+</head>
+
+<body>
+
+  <!-- Background Image --> 
+
+  <div class="bgimage" style="background-image: url(physicsbackground.png);"></div>
+  <div class="borderbgimage" style="background-color: black;"></div>
+
+  <!-- Website Navigation Bar -->
+
+<nav class="navigationbar">
+    
+    <div class="navbarlogo"><img src="LearnityNavBarLogo.png"></div>
+    <p> Learnity </p>
+    <a href="index.html#home" class="navigationbutton">Home</a>
+    <a href="index.html#subjects" class="navigationbutton">Subjects</a>
+    <a href="index.html#credits" class="navigationbutton">Credits</a>
+    <a href="index.html#rateus" class="navigationbutton">Feedbacks</a>
+
+</nav>
+
+  <!-- Website Title  -->
+
+  <div id="topictitle">
+
+    <h1>Gravitation</h1>    
+    
+  </div>
+  
+<div>
+
+    <div class="designs" style="margin-top:45vh;">1. Introduction to Gravitation
+
+        <div class="sidebuttons">
+            <button onclick="toggleDropdown('E1')" class="openbutton">Learn About This Topic</button>
+            <button onclick="toggleDropdown('E2')" class="openbutton" style="margin-left: .5%;">Important Points</button>
+            <button onclick="toggleDropdown('E3')" class="openbutton" style="margin-left: .5%;">Question Papers</button>
+            
+            <div class="dropdown-content" id="E1">
+                <p><h2>What is graviation?</h2></p>
+                <p>Gravitation, often referred to as gravity, is one of the four fundamental forces of nature. It is the force of attraction that exists between any two masses, any two bodies, or any two particles. This universal force is responsible for many phenomena we observe in the universe, from the falling of an apple to the motion of planets and stars.</p>
+
+                <p><h3>Universal Law of Gravitation</h3></p>
+                <p>
+                    Formulated by Sir Isaac Newton, the Universal Law of Gravitation states:<br>
+                    <em>F = G x (m₁ x m₂)/r²</em>, where F is the gravitational force between two objects, G is the gravitational constant (6.67430 x 10⁻¹¹ Nm²/kg²), m₁ and m₂ are the masses of the two objects, r is the distance between the centers of the two masses.<br>
+                    This law explains that every mass exerts an attractive force on every other mass. The force is directly proportional to the product of their masses and inversely proportional to the square of the distance between them.<br>
+                </p>
+                <p><h3>Gravitation Force</h3></p>
+                <p>Gravitational force is always attractive and acts along the line joining the centers of two masses. It is significant for large bodies like planets and stars but negligible for small objects.</p>
+            </div>
+
+
+            <div class="dropdown-content" id="E2">
+
+            </div>
+
+            <div class="dropdown-content" id="E3">
+
+            </div>
+        </div>
+</div>
+
+    <div class="designs">2. Effects and Applications of Gravitation
+
+        <div class="sidebuttons">
+            <button onclick="toggleDropdown('A1')" class="openbutton">Learn About This Topic</button>
+            <button onclick="toggleDropdown('A2')" class="openbutton" style="margin-left: .5%;">Important Points</button>
+            <button onclick="toggleDropdown('A3')" class="openbutton" style="margin-left: .5%;">Question Papers</button></div>
+        
+            <div class="dropdown-content" id="A1">
+                <p><h2>Terrestial Phenomena</h2></p>
+                <p>Free Fall: Objects fall towards the Earth due to gravity. The acceleration due to gravity on Earth is approximately 9.8 m/s²</p>
+                <p>Weight: Weight is the force exerted by gravity on an object. It is the product of mass and gravitational acceleration.<br><em>Weight = mg</em><br></p>
+
+                <p><h2>Celestial Phenomena</h2></p>
+                <p>Planetary Orbits: Gravity is responsible for the elliptical orbits of planets around the Sun. It keeps the Moon in orbit around the Earth.</p>
+                <p>Tides: The gravitational pull of the Moon and the Sun causes tides in Earth's oceans.</p>
+
+                <p><h2>Astrophysics</h2></p>
+                <p>Black Holes: Extremely massive objects where gravity is so strong that even light cannot escape.</p>
+                <p>Galaxy Formation: Gravity pulls together gas and dust to form stars and galaxies.</p>
+
+            </div>
+
+            <div class="dropdown-content" id="A2">
+                <p><h2>Summary</h2></p>
+            </div>
+
+            <div class="dropdown-content" id="A3">
+                <p><h2>Exercise Questions</h2></p>
+
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+  <script>
+
+function toggleDropdown(id) {
+    document.getElementById(id).classList.toggle("show");
+}
+
+  </script>
+
+</body>
+
+</html>

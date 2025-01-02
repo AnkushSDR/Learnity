@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learnity</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="security.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="navigationbar.css">
+  <link rel="stylesheet" href="physics.css">
+  <link rel="icon" href="TitleBarLogo.png">
+
+</head>
+
+<body>
+
+  <!-- Background Image --> 
+
+  <div class="bgimage" style="background-image: url(physicsbackground.png);"></div>
+  <div class="borderbgimage" style="background-color: black;"></div>
+
+  <!-- Website Navigation Bar -->
+
+<nav class="navigationbar">
+    
+    <div class="navbarlogo"><img src="LearnityNavBarLogo.png"></div>
+    <p> Learnity </p>
+    <a href="index.html#home" class="navigationbutton">Home</a>
+    <a href="index.html#subjects" class="navigationbutton">Subjects</a>
+    <a href="index.html#credits" class="navigationbutton">Credits</a>
+    <a href="index.html#rateus" class="navigationbutton">Feedbacks</a>
+
+</nav>
+
+  <!-- Website Title  -->
+
+  <div id="topictitle">
+
+    <h1>Motion</h1>    
+    
+  </div>
+  
+<div>
+
+    <div class="designs" style="margin-top:45vh;">1. What is Motion?
+
+        <div class="sidebuttons">
+            <button onclick="toggleDropdown('E1')" class="openbutton">Learn About This Topic</button>
+            <button onclick="toggleDropdown('E2')" class="openbutton" style="margin-left: .5%;">Important Points</button>
+            <button onclick="toggleDropdown('E3')" class="openbutton" style="margin-left: .5%;">Question Papers</button>
+            
+            <div class="dropdown-content" id="E1">
+                <p>Motion refers to the change in position of an object with respect to time. It is a fundamental concept in physics and can be described and quantified in various ways.</p>
+                <p><h2>Types of Motion</h2></p>
+                <p>Linear Motion: Movement in a straight line, such as a car driving down a road.<br>
+                    Rotational Motion: Movement around a fixed axis, like a spinning top.<br>
+                    Oscillatory Motion: Back-and-forth movement in a regular rhythm, such as a pendulum.<br>
+                </p>
+                <p><h2>Parameters of Motion</h2></p>
+                <p>
+                    Displacement: The change in position of an object.<br>                    
+                    Velocity: The rate at which an object changes its position, including direction.<br>                    
+                    Acceleration: The rate at which velocity changes over time.<br>                    
+                    Time: The duration over which motion occurs.<br>
+                </p>
+                <p>
+                    <em>Examples:<br>
+                    A ball thrown into the air follows a parabolic path due to the forces of gravity and its initial velocity.<br>                    
+                    The Earth's rotation around its axis results in the day-night cycle.
+                    </em>
+                </p>
+            </div>
+
+
+            <div class="dropdown-content" id="E2">
+
+            </div>
+
+            <div class="dropdown-content" id="E3">
+
+            </div>
+        </div>
+</div>
+
+    <div class="designs">2. Different types of Motion; Uniform and Non-Uniform
+
+        <div class="sidebuttons">
+            <button onclick="toggleDropdown('A1')" class="openbutton">Learn About This Topic</button>
+            <button onclick="toggleDropdown('A2')" class="openbutton" style="margin-left: .5%;">Important Points</button>
+            <button onclick="toggleDropdown('A3')" class="openbutton" style="margin-left: .5%;">Question Papers</button></div>
+        
+            <div class="dropdown-content" id="A1">
+                <p><h2>Uniform Motion</h2></p>
+                <p>Uniform motion refers to movement at a constant speed in a straight line. Here, the object covers equal distances in equal intervals of time, no matter how small the intervals are. This type of motion is predictable and can be easily described using simple mathematical equations.</p>
+                <p>
+                    <em>
+                        Examples of Uniform Motion:<br>
+                        A car cruising on a straight highway at a steady speed of 60 km/h.<br>
+                        Earth orbiting the Sun in a nearly circular path with a consistent speed.<br>
+                    </em>
+                </p>
+                <p><h2>Non-Uniform Motion</h2></p>
+                <p>Non-uniform motion, on the other hand, involves movement where the speed changes over time. This can include acceleration or deceleration. In non-uniform motion, the object covers unequal distances in equal intervals of time. This type of motion is more complex and often requires calculus to describe accurately.</p>
+                <p><em>Examples of Non-Uniform Motion:<br>
+                    A car speeding up as it merges onto a highway.<br>
+                    A roller coaster as it moves through different speeds and directions on its track.
+                </em></p>
+            </div>
+
+            <div class="dropdown-content" id="A2">
+                <p><h2>Summary</h2></p>
+            </div>
+
+            <div class="dropdown-content" id="A3">
+                <p><h2>Exercise Questions</h2></p>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="designs">3. Speed and Velocity
+    
+        <div class="sidebuttons">
+            <button onclick="toggleDropdown('B1')" class="openbutton">Learn About This Topic</button>
+            <button onclick="toggleDropdown('B2')" class="openbutton" style="margin-left: .5%;">Important Points</button>
+            <button onclick="toggleDropdown('B3')" class="openbutton" style="margin-left: .5%;">Question Papers</button></div>
+        
+            <div class="dropdown-content" id="B1">
+                <p><h2>Speed</h2></p>
+                <p>Speed is a <b>scalar quantity</b> that refers to how fast an object is moving. It is calculated by dividing the distance traveled by the time taken. The unit of speed is typically meters per second (m/s) or kilometers per hour (km/h).</p>
+                <p>Speed = Distance/Time</p>
+                <p><h2>Velocity</h2></p>
+                <p>Velocity is a <b>vector quantity</b> that includes both the speed and direction of an object's motion. It can be calculated similarly to speed but also requires the direction of movement.</p>
+                <p><h2>Acceleration</h2></p>
+                <p>Acceleration is the rate at which an object's velocity changes over time. It is a vector quantity and can be calculated by dividing the change in velocity by the time taken for that change. The unit of acceleration is meters per second squared (m/s²).</p>
+                <p>Acceleration = Change in Velocity/Time</p>
+                <p></p><h3>Measuring Instruments</h3></p>
+                <p>
+                    Speedometers: Commonly used in vehicles to measure the instantaneous speed.<br>
+                    Radar Guns: Used by law enforcement to measure the speed of moving vehicles.<br>
+                    Accelerometers: Devices that measure the acceleration of an object, used in various scientific and industrial applications.<br>
+                </p>
+                <p><h2>Practical Applications</h2></p>
+                <p>
+                    Transportation: Monitoring and controlling the speed and acceleration of vehicles to ensure safety and efficiency.<br>
+                    Sports: Measuring athletes' speed and acceleration to enhance training and performance.<br>
+                    Aerospace: Calculating the velocity and acceleration of spacecraft to ensure accurate navigation.<br>
+                </p>
+            </div>
+
+            <div class="dropdown-content" id="B2">
+                <p><h2>Summary</h2></p>
+
+            </div>
+
+            <div class="dropdown-content" id="B3">
+                <p><h2>Practice Questions</h2></p>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="designs">4. Graphical Representation of Motion
+    
+        <div class="sidebuttons">
+            <button onclick="toggleDropdown('C1')" class="openbutton">Learn About This Topic</button>
+            <button onclick="toggleDropdown('C2')" class="openbutton" style="margin-left: .5%;">Important Points</button>
+            <button onclick="toggleDropdown('C3')" class="openbutton" style="margin-left: .5%;">Question Papers</button></div>
+        
+            <div class="dropdown-content" id="C1">
+                <p><h2>What is graphical representation?</h2></p>
+                <p>Graphical representation is a powerful way to analyze and understand motion. By using graphs, we can visualize how objects move over time and gain insights into their speed, velocity, acceleration, and other important characteristics.</p>
+                <p><h3>Distance-Time Graphs</h3></p>
+                <p>
+                    These graphs show how the distance traveled by an object changes over time. Straight Line (Constant Speed): If the line is straight and sloped, the object is moving at a constant speed. The steeper the slope, the faster the object is moving.<br>
+                    Distance = Speed x Time<br>
+                    Horizontal Line (At Rest): If the line is horizontal, the object is not moving; it is stationary.<br>
+                </p>
+                <p><h3>Velocity-Time Graphs</h3></p>
+                <p>
+                    These graphs display how the velocity of an object changes over time. <br>
+                    Horizontal Line (Constant Velocity): A horizontal line indicates that the object is moving with a constant velocity.<br>
+                    Slope (Acceleration): The slope of the line represents acceleration. If the line slopes upward, the object is speeding up. If it slopes downward, the object is slowing down.<br>
+                    Acceleration = Change in Velocity / Time
+                </p>
+                <p><h3>Acceleration-Time Graphs</h3></p>
+                <p>
+                    These graphs illustrate how an object's acceleration changes over time.<br>
+                    Horizontal Line (Constant Acceleration): A horizontal line indicates constant acceleration.<br>
+                    Variable Acceleration: If the line is not horizontal, the acceleration is changing over time.<br>
+                </p>
+                <p><h3>Analyzing Graphs</h3></p>
+                <p>
+                    Area Under the Curve: In velocity-time graphs, the area under the curve represents the distance traveled by the object.<br>
+                    Slope of the Line: In distance-time graphs, the slope of the line indicates the object's speed. In velocity-time graphs, the slope indicates acceleration.<br>
+                </p>
+            </div>
+
+            <div class="dropdown-content" id="C2">
+                <p><h2>Summary</h2></p>
+
+            </div>
+
+            <div class="dropdown-content" id="C3">
+                <p><h2>Practice Questions</h2></p>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+    <div class="designs">5. An Important Type of Motion: Uniform Circular Motion
+    
+        <div class="sidebuttons">
+            <button onclick="toggleDropdown('H1')" class="openbutton">Learn About This Topic</button>
+            <button onclick="toggleDropdown('H2')" class="openbutton" style="margin-left: .5%;">Important Points</button>
+            <button onclick="toggleDropdown('H3')" class="openbutton" style="margin-left: .5%;">Question Papers</button></div>
+        
+            <div class="dropdown-content" id="H1">
+                <p><h2>Introduction</h2></p>
+                <p>Uniform circular motion refers to the movement of an object traveling at a constant speed along a circular path. Despite the speed remaining constant, the direction of the object's motion continuously changes, leading to an acceleration toward the center of the circle.</p>
+                <p><h3>Key Concepts</h3></p>
+                <p>
+                    Constant Speed: The object moves with a uniform speed, meaning it covers equal distances in equal intervals of time.<br>
+                    Changing Direction: While the speed is constant, the direction changes at every point along the circular path.<br>
+                    Centripetal Force: This is the force that acts towards the center of the circular path, keeping the object in motion along the circle. It's necessary for maintaining circular motion.<br>
+                    Centripetal Acceleration: The acceleration directed towards the center of the circle that causes the change in direction of the object's velocity.<br>
+                </p>
+                <p><h2>Important Formulas</h2></p>
+                <p><h3>Centripetal Force (Fc)</h3></p>
+                <p>Fc = mv2/r, where m is the mass of the object, v is the speed and r is the radius of the circular path.</p>
+                <p><h3>Centripetal Acceleration (ac)</h3></p>
+                <p>ac = v2/r, where v is the speed of the object, andn r is the radius of the circular path.</p>
+                <p><h3>Examples of the applications of Uniform Circular Motion</h3></p>
+                <p>
+                    Ferris Wheel: The motion of seats on a Ferris wheel is an example of uniform circular motion. The seats move at a constant speed in a circular path.<br>
+                    Earth's Orbit: The Earth's nearly circular orbit around the Sun is another example, where gravity provides the centripetal force.<br>
+                    Tie Rotation: Spinning a tied object around in a circle with a constant speed.<br>
+                    Centrifuges: Used in laboratories to separate substances based on density using high-speed circular motion.<br>
+                    Satellite Orbits: Satellites move in uniform circular orbits around planets, maintained by gravitational force acting as centripetal force.<br>
+                </p>
+            </div>
+
+            <div class="dropdown-content" id="H2">
+                <p><h2>Summary</h2></p>
+
+            </div>
+
+            <div class="dropdown-content" id="H3">
+                <p><h2>Practice Questions</h2></p>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+</div>
+  <script>
+
+function toggleDropdown(id) {
+    document.getElementById(id).classList.toggle("show");
+}
+
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learnity</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="security.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="navigationbar.css">
+  <link rel="stylesheet" href="physics.css">
+  <link rel="icon" href="TitleBarLogo.png">
+
+</head>
+
+<body>
+
+  <!-- Background Image --> 
+
+  <div class="bgimage" style="background-image: url(physicsbackground.png);"></div>
+  <div class="borderbgimage" style="background-color: black;"></div>
+
+  <!-- Website Navigation Bar -->
+
+<nav class="navigationbar">
+    
+    <div class="navbarlogo"><img src="LearnityNavBarLogo.png"></div>
+    <p> Learnity </p>
+    <a href="index.html#home" class="navigationbutton">Home</a>
+    <a href="index.html#subjects" class="navigationbutton">Subjects</a>
+    <a href="index.html#credits" class="navigationbutton">Credits</a>
+    <a href="index.html#rateus" class="navigationbutton">Feedbacks</a>
+
+</nav>
+
+  <!-- Website Title  -->
+
+  <div id="topictitle">
+
+    <h1>Work and Energy</h1>
+    
+  </div>
+  
+<div>
+
+    <div class="designs" style="margin-top:45vh;">1. Work in Physics
+
+        <div class="sidebuttons">
+            <button onclick="toggleDropdown('E1')" class="openbutton">Learn About This Topic</button>
+            <button onclick="toggleDropdown('E2')" class="openbutton" style="margin-left: .5%;">Important Points</button>
+            <button onclick="toggleDropdown('E3')" class="openbutton" style="margin-left: .5%;">Question Papers</button>
+            
+            <div class="dropdown-content" id="E1">
+                <p><h2>Introduction</h2></p>
+                <p>In physics, work is a measure of the energy transfer that occurs when an object is moved by a force. It is a fundamental concept that connects force, distance, and energy, and plays a crucial role in understanding mechanical systems, energy transformations, and the principles of motion.</p>
+                <p><h3>Definition of Work</h3></p>
+                <p>Work (W) is done when a force (F) acts on an object and cause it to move in the direction of the force. The amount of work done is calulated using the formula: <br><br><em>W = F x d  x cos(0)</em>, where W is the work done, F is the magnitude of the force, d is the displacement of the object, and 0 is the angle between the direction of the force and the direction of the displacement.</p>
+                <p><h3>Units of Work</h3></p>
+                <p>The SI unit of work is the joule (J). One joule is equal to one newton of force causing a displacement of one meter.<br><br></p>
+                <p>1J = 1N x 1m</p>
+                <p><h3>Conditions for Work</h3></p>
+                <p>
+                    Force Applied: There must be a force acting on the object.<br>
+                    Displacement: The object must move in the direction of the force.<br>
+                    Angle: The force must have a component in the direction of the displacement.
+                </p>
+                <p><h3>Types of Work</h3></p>
+                <p>
+                    Positive Work: When the force and displacement are in the same direction, the work done is positive.<br>
+                    Example: Pushing a box forward on a flat surface.<br><br>
+
+                    Negative Work: When the force and displacement are in opposite directions, the work done is negative.<br>
+                    Example: Pulling a box backward while it slides forward.<br><br>
+
+                    Zero Work: If there is no displacement or the force is perpendicular to the displacement, no work is done.<br>
+                    Example: Carrying a book while walking horizontally; the vertical force does no work on the horizontal displacement.<br><br>
+                </p>
+                <p><h3>Applications of Work</h3></p>
+                <p>
+                    Lifting Objects: When lifting an object, work is done against the force of gravity.<br>
+                    Example: Lifting a book off the ground.<br><br>
+
+                    Moving Vehicles: Engines do work to move vehicles by applying force to the wheels.<br>
+                    Example: A car accelerating on a highway.<br><br>
+
+                    Mechanical Devices: Machines and tools perform work to accomplish tasks.<br>
+                    Example: A crane lifting heavy materials at a construction site.<br><br>
+                </p>
+                <p><h2>Work-Energy Theorem</h2></p>
+                <p>
+                    The work-energy theorem states that the work done on an object is equal to the change in its kinetic energy:<br><br>
+                    <em>W = ΔKE =  1/2mv² - 1/2mv²</em>, where ΔKE is the change in kinetic energy, m is the mass of the object, vf is the final velocity and vi is the initial velocity.
+                </p>
+            </div>
+
+
+            <div class="dropdown-content" id="E2">
+
+            </div>
+
+            <div class="dropdown-content" id="E3">
+
+            </div>
+        </div>
+</div>
+
+    <div class="designs">2. Energy
+
+        <div class="sidebuttons">
+            <button onclick="toggleDropdown('A1')" class="openbutton">Learn About This Topic</button>
+            <button onclick="toggleDropdown('A2')" class="openbutton" style="margin-left: .5%;">Important Points</button>
+            <button onclick="toggleDropdown('A3')" class="openbutton" style="margin-left: .5%;">Question Papers</button></div>
+        
+            <div class="dropdown-content" id="A1">
+                <p><h2>Introduction to Energy</h2></p>
+                <p>Energy is a fundamental concept in physics that describes the capacity to do work or produce change. It exists in various forms and can be transferred or transformed from one form to another. Understanding energy and its transformations is essential for explaining natural phenomena and for the development of technology and industry.</p>
+                <p><h3>Types of Energy</h3></p>
+                <p>
+                    Energy can be broadly classified into several types, each with unique characteristics:<br><br>
+
+                    Kinetic Energy: The energy of motion. Any moving object possesses kinetic energy.<br>
+                    <em>Kinetic Energy(KE) = 1/2mv²</em>, where m is the mass and v is the velocity of the object.<br><br>
+
+                    Potential Energy: The energy stored in an object due to its position or state. Common forms include gravitational potential energy and elastic potential energy.<br>
+                    <em>Gravitational Potential Energy (PE) = mgh</em>, where m is the mass, g is the acceleration due to gravity and h is the height above a reference point.<br><br>
+
+                    Thermal Energy: The energy associated with the temperature of an object. It is the total kinetic energy of particles in a substance.<br><br>
+                    Chemical Energy: The energy stored in chemical bonds between atoms and molecules. It is released or absorbed during chemical reactions.<br><br>
+                    Electrical Energy: The energy caused by the movement of electric charges. It powers electrical devices and circuits.<br><br>
+                    Nuclear Energy: The energy stored in the nucleus of an atom. It can be released through nuclear reactions such as fission and fusion.<br><br>
+                    Radiant Energy: The energy carried by electromagnetic waves, such as light and radio waves.<br><br>
+                </p>
+                <p><h2>Law of Conservation of Energy</h2></p>
+                <p>The Law of Conservation of Energy states that energy cannot be created or destroyed; it can only be transferred or transformed from one form to another. The total energy of an isolated system remains constant over time.</p>
+                <p><h3>Energy Transformations</h3></p>
+                <p>
+                    Energy transformations occur when energy changes from one form to another. These transformations are ubiquitous in both natural processes and human-made systems:<br><br>
+
+                    Photosynthesis: Plants convert radiant energy from the sun into chemical energy stored in glucose.<br><br>
+
+                    Combustion: Burning fuel converts chemical energy into thermal energy and light.<br><br>
+
+                    Electric Generators: Mechanical energy is converted into electrical energy.<br><br>
+
+                    Batteries: Chemical energy is converted into electrical energy to power devices.<br><br>
+
+                    Hydropower: Gravitational potential energy of water is converted into kinetic energy, which is then transformed into electrical energy.<br><br>
+                </p>
+                <p><h2>Importance of Energy</h2></p>
+                <p>
+                    Energy is vital for various applications in daily life, industry, and scientific research:<br><br>
+
+                    Transportation: Energy powers vehicles, enabling movement of people and goods.<br><br>
+
+                    Electricity: Energy generation and distribution are critical for homes, industries, and infrastructure.<br><br>
+
+                    Heating and Cooling: Energy is used for regulating indoor temperatures through heating systems and air conditioning.<br><br>
+
+                    Manufacturing: Industries rely on energy to power machinery and produce goods.<br><br>
+
+                    Scientific Research: Energy is essential for conducting experiments and advancing technology.<br><br>
+                </p>
+            </div>
+
+            <div class="dropdown-content" id="A2">
+                <p><h2>Summary</h2></p>
+            </div>
+
+            <div class="dropdown-content" id="A3">
+                <p><h2>Exercise Questions</h2></p>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="designs">3. Power
+    
+        <div class="sidebuttons">
+            <button onclick="toggleDropdown('B1')" class="openbutton">Learn About This Topic</button>
+            <button onclick="toggleDropdown('B2')" class="openbutton" style="margin-left: .5%;">Important Points</button>
+            <button onclick="toggleDropdown('B3')" class="openbutton" style="margin-left: .5%;">Question Papers</button></div>
+        
+            <div class="dropdown-content" id="B1">
+                <p><h2>What is Power?</h2></p>
+                <p>In physics, power is the rate at which work is done or energy is transferred over time. It quantifies how quickly energy is used or converted from one form to another and is a critical concept in understanding and measuring the efficiency of various processes and devices.</p>
+                <p><h2>Definition of Power</h2></p>
+                <p>Power (P) is the amount of work done (W) or energy transferred per unit time (t). The formula for power is:<br><br> <em>P = Wt</em>.<br> Alternatively, power can also be expressed in terms of force that is, <em>P = Fv</em></p>
+                <p><h2>Units of Power</h2></p>
+                <p>
+                    The SI unit of power is the watt (W) named after the Scottish engineer James Watt. One watt is equivalent to one joule of work done persecond: <br><br> 
+                    <em>1W = 1J/s</em> <br><br> 
+                    Other units of power include: <br><br>
+                    Horsepower (hp): Often used to measure the power of engines. 1 horsepower is approximately equal to 746 watts.<br><br>
+
+                    Kilowatt (kW): Used for larger power measurements. 1 kilowatt is equal to 1,000 watts.<br><br>
+                </p>
+                <p><h3>Types of Power</h3></p>
+                <p>
+                    Mechanical Power: The rate at which work is done by a mechanical system, such as engines or motors. <br>
+                    <em>Example: The power output of a car engine when accelerating.</em>
+                    Electrical Power: The rate at which electrical energy is transferred by an electric circuit. It is calculated using the formula: <br><br>
+                    <em>P = lV</em>, where l is the current and V is the voltage.<br><br>
+                    <em>Example: The power consumption of household appliances like refrigerators and air conditioners.</em><br><br>
+                    Thermal Power: The rate at which heat energy is generated or used. It is significant in heating systems and thermal power plants.<br>
+                    <em>Example: The power output of a steam turbine in a power plant.</em><br><br>
+                </p>
+                <p><h2>Practical Applications</h2></p>
+                <p>
+                    Electric Power Generation: Power plants generate electrical power by converting mechanical energy from turbines into electrical energy.<br>
+                    Example: Hydroelectric power plants use the potential energy of water to generate electricity.<br><br>
+
+                    Transportation: The power of engines determines the speed and efficiency of vehicles, including cars, airplanes, and ships.<br>
+                    Example: The horsepower rating of a car engine indicates its ability to perform work over time.<br><br>
+
+                    Household and Industrial Appliances: Power ratings of devices indicate their energy consumption and efficiency.<br>
+                    Example: A 100-watt light bulb uses 100 joules of energy per second.<br><br>
+
+                    Renewable Energy: Solar panels and wind turbines convert natural energy sources into electrical power.<br>
+                    Example: The power output of a solar panel depends on the intensity of sunlight it receives.<br><br>
+                </p>
+                <p><h2>Importance of Power</h2></p>
+                <p>
+                    Efficiency: Power measurements help determine the efficiency of machines and systems by comparing the input and output energy.<br><br>
+                    Energy Management: Understanding power consumption is crucial for managing energy resources and reducing costs.<br><br>
+                    Technological Advancements: Innovations in power generation and consumption drive technological progress in various fields.<br><br>
+                </p>
+            </div>
+
+            <div class="dropdown-content" id="B2">
+                <p><h2>Summary</h2></p>
+
+            </div>
+
+            <div class="dropdown-content" id="B3">
+                <p><h2>Practice Questions</h2></p>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+  <script>
+
+function toggleDropdown(id) {
+    document.getElementById(id).classList.toggle("show");
+}
+
+  </script>
+
+</body>
+
+</html>
