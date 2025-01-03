@@ -264,7 +264,7 @@
         padding-right: 1vw;
         padding-bottom: 2vh;
         transition: max-height 1s ease-in-out, margin .5s ease-in-out;
-        max-height: 200vh;
+        max-height: 0vh;
         text-indent: 1vw;
     }
 
