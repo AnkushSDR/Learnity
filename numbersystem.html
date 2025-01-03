@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learnity</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="security.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="navigationbar.css">
+  <link rel="stylesheet" href="mathematics.css">
+  <link rel="icon" href="TitleBarLogo.png">
+
+</head>
+
+<body>
+
+  <!-- Background Image --> 
+
+  <div class="bgimage" style="background-image: url(mathematicsbackground.jpg);"></div>
+  <div class="borderbgimage" style="background-color: black;"></div>
+
+  <!-- Website Navigation Bar -->
+
+<nav class="navigationbar">
+
+    <div class="navbarlogo"><img src="LearnityNavBarLogo.png"></div>
+    <p> Learnity </p>
+    <a href="index.html#home" class="navigationbutton">Home</a>
+    <a href="index.html#subjects" class="navigationbutton">Subjects</a>
+    <a href="index.html#credits" class="navigationbutton">Credits</a>
+    <a href="index.html#rateus" class="navigationbutton">Feedbacks</a>
+
+</nav>
+
+  <!-- Website Title  -->
+
+  <div class="subtitle">
+
+    <h1 id="topictitle1">Number Systems</h1>    
+    
+  </div>
+
+<section class="regrouping">
+</section>
+
+<div class="topics">
+
+    <div class="designs" style="padding-top: 20%;">1. Introduction to Number Systems
+
+        <div class="sidebuttons">
+            <button onclick="toggleDropdown('A1')" class="openbutton" aria-controls="A1" aria-expanded="false">Learn About This Topic</button>
+            <button onclick="toggleDropdown('A2')" class="openbutton" aria-controls="A2" aria-expanded="false">Examples & Solutions</button>
+            <button onclick="toggleDropdown('A3')" class="openbutton" aria-controls="A3" aria-expanded="false">Practice Papers</button>
+        </div>
+
+            <div class="dropdown-content" id="A1">
+                <p><h2>Natural Numbers</h2></p>
+                <p>The collection fo natural numbers is denoted by N and is written as N = {1, 2, 3, 4, 5, 6, ...}</p>
+                <p><em>REMARKS: (i) The least natural number is 1. (ii) There are infinitely many natural numbers.</em></p>
+                <p><h2>Whole Numbers</h2></p>
+                <p>All natural numbers together with - from the collection W off all whole numbers, written as W = {0, 1, 2, 3, 4, 5, ...}</p>
+                <p><em>REMARKS: (i) The least whole number is 0. (ii) There are infinitely many whole numbers. (iii) Every natural number is a whole number. (iv) All whole numbers are not natural numbers, as 0 is a whole number which is not a natural number.</em></p>
+                <p><h2>Integers</h2></p>
+                <p>All natural numbers, 0 and negatives of natural numbers form the collection of integers. It is represented by Z after the German word "zahlen" meaning "to count". Thus, we write, Z = {..., -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5,...}</p>
+                <p><em>REMARKS: (i) 0 is neither negative nor positive. (ii) There are infinitely many integers. (iii) Every natural number is an integer. (iv) Every whole number is an integer.</em></p>
+                <p><h2>Representation of Integers on the Number Line</h2></p>
+                <p><em>A number line is a visual representation of numbers on a graduated straight line.</em></p>
+                <p>To represent integers on the number line, draw a line XY which extends endlessly in both the directions, as indicated by the arrowheads in the diagram below.</p>
+                <img src="numbersystemdiagram1.jpg">
+                <p>Take any point O on this line. Let this point represent the integer 0 (zero). Now, taking a fixed length, called unit length, set off equal distances to the right as well as to the left of O.</p>
+                <p>On the right-hand side of O, the points at distances of 1 unit, 2 units, 3 units, 4 units, 5 units, etc., from O denote respectively the positive integers 1, 2, 3, 4, 5, etc.</p>
+                <p>Similarly, on the left-hand side of O, the points at distances of 1 unit, 2 units, 3 units, 4 units, 5 units, etc., from O denote respectively the negative integers -1, -2, -3, -4, -5, etc.</p>
+                <p>Since the line can be extended endlessly on both sides of O, it follows that we can represent each and every integer by some point on this line. For instance, starting from O and moving to its right, after 836 units, we get a point which represents the integer 836.</p>
+                <p>Similarly, starting from O and moving to its left, a point after 750 units, represents the integer -750. Thus, each and every integer can be represented by some point on the number line.</p>
+                <p><h2>Rational Numbers</h2></p>
+                <p><em>The numbers of the form p/q, where p and q are integets and q is not equal 0, are known as rational numbers.</em> The collection of rational numbers is denoted by Q and is written as: <em>Q ] {p/q : p,q are integers, q is not equal to 0}</em></p>
+                <p><em>REMARKS: (i) There are infinitely many rational numbers. (ii) There is no least or greatest rational number. (iii) 0 is a rational number, since we can write 0 = 0/1. (iv) Every natural number is a rational number since we can write, 1 = 1/2, 2 = 2/1 3 = 3/1 etc. (v) Every integer is a rational number since an interger a can be written as a/1, e.g. -31 = -31/1, 0 = 0/1 etc. Hence, rational numbers include natural numbers, whole numbers and integers.</em></p>
+                <p><h3>Equilvalent Rational Numbers</h3></p>
+                <p>Rational numbers do not have a unique representation in the form p/q, where and q are integers and q is not equal to 0. <br> Thus, 1/2 = 2/4 = 3/6 = 4/8 = ... 15/30 = 16/32 = 144/288 =... .</p>
+                <p><h3>Simplest Form Of A Rational Number</h3></p>
+                <p>A rational number p/q is said to be n its simplest form, if p and q are intergers having no common factor other than 1 (that is, p and q are co-primes) and q is not equal to 0. <br> Thus, the simplest form of each of the rational numbers like 2/4, 3/6, 4/8, 5/10 etc., is 1/2.</p>
+                <p><h2>Finding Rational Numbers Between Two Given Rational Numbers</h2></p>
+                <p><b>METHOD 1: </b>Suppose we are required to find one rational number between two rational numbers x and y such that x < y. Then, 1/2(x + y) is a rational number lying between x and y.</p>
+                <p><b>METHOD 2: </b> Suppose we are required to find n rational numbers between two rational numbers, x and y with like denominators. <br>Then, we convert the given rational numbers into equivalent rational numbers by multiplying the numerator and denominator by a suitable number, usually (n + 1) <br> Now, the required rational numbers may be manually chosen.</p>
+            </div>
+
+            <div class="dropdown-content" id="A2">
+                <p><h2>Examples Regarding The Topic</h2></p>
+                <p><b>Example 1: </b>Write four rational numbers equivalent to 4/7</p>
+                <p><b>Solution: </b><br>4/7 = 4 x 2 / 7 x 2 = 4 x 3 / 7 x 3 = 4 x 4 / 7 x 4 = 4 x 5 / 7 x 5 <br> = 4/7 = 8/14 = 12/21 = 16/28 = 20/35 <br> Thus, four rational numbers equivalent to 4/7 are 8/14, 12/21, 16/28 and 20/35.</p>
+                <p><b>Example 2: </b> Find a rational number lying between (i) 1/3 and 1/2; (ii) 2/3 and -3/4</p>
+                <p><b>Solution: </b><br>(i) Let x = 1/3 and y = 1/2 <br><br> Therefore, required rational number lying between x and y<br> = 1/2(x + y) = 1/2(1/3 + 1/2) = 1/2 x 5/6 = 5/12.</p>
+                <p><b>Example 3: </b>Find six rational numbers between 3 and 4.</p>
+                <p><b>Solution: </b><br>Let n = 6. <br> We convert 3 and 4 into equivalent rationalnumber using (n + 1) = 7 as multiplying factor. <br> Thus, 3 = 3/1 = 3 x 7/1 x 7 = 2/7 and 4 = 4 x 7/1 x 7 = 28/7. <br> Now, 21/7 < 22/7 < 23/7 < 24/7 < 28/7 <br> or 3 < 22/7 < 23/7 < 24/7 < 25/7 < 26/7 < 27/7. <br> Hence, six rational numbers between 3 and 4 are 22/7, 23/7, 24/7, 25/7, 26/7 and 27/7.</p>
+            </div>
+
+            <div class="dropdown-content" id="A3">
+                <p><h2>Practice Questions</h2></p>
+                <p><b>Question 1: </b>Is zero a rational number? Jusitfy.</p>
+                <p><b>Question 2: </b>Find three rational numbers between 3/5 and 7/8.</p>
+                <p><b>Question 3: </b>Find four rational numbers between 3/7 and 5/7.</p>
+                <p><b>Question 4: </b>Find a rational number between: <br><ol type="i" style="display: flex;gap: 2vw;"><li>3/8 and 2/5</li><li>1.3 and 1.4</li><li>-1 and 1/2</li><li>-3/4 and -2/5</li><li>1/9 and 2/9</li></ol></p>
+                <p><b>Question 5: </b>Find six rational numbers between 2 and 3.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="designs">2. Decimal Representation of Rational Numbers
+
+        <div class="sidebuttons">
+            <button onclick="toggleDropdown('B1')" class="openbutton" aria-controls="B1" aria-expanded="false">Learn About This Topic</button>
+            <button onclick="toggleDropdown('B2')" class="openbutton" style="margin-left: .5%;" aria-controls="B2" aria-expanded="false">Examples & Solutions</button>
+            <button onclick="toggleDropdown('B3')" class="openbutton" style="margin-left: .5%;" aria-controls="B3" aria-expanded="false">Practice Papers</button></div>
+        
+            <div class="dropdown-content" id="B1">
+                <p>Every rational number p/q can be expressed as a decimal. On dividing p by q, two possibilities arise: <br><br> (i) The remainder becomes zero and the division concludes after a finite number of steps. In this case, the decimal expansion obtained also terminates or ends. <br><br> (ii) The remainder never becomes zero and a repeating string of remainders are obtained. In this case, we get a digit or a block of digits repeating in a decimal expansion. <br> Thus, we have two types of decimal expressions.</p>
+                <p><h2>Terminating Decimal</h2></p>
+                <p>A decimal that ends after a finite number of digits is called a temrinating decimal.</p>
+                <p><em><b>IMPORTANT RULE: </b> A rational number p/q is expressible as a terminating decimal only when prime factors of q are 2 and 5  only.</em></p>
+                <p><i>Examples: </i>Each of the numbers 1/2, 2/4, 7/20, 13/25 is a terminating decimal since the denominator of each of the numbers have no primce factors other than 2 and 5.</p>
+                <p><h2>Repeating (or recurring) Decimal</h2></p>
+                <p>A decimal in which a digit or a set of digits is repeated periodically, is called a repeating or a recurring decimal. <br><br> In a recrring decimal, we place a bar over the first block of the repeating digits and omit the other repeating blocks.</p>
+                <p><h2>Special Characteristics Of Rational Numbers</h2></p>
+                <p>(i) Every rational number is expressibile either as a terminating decimal or as a nonterminating reccuring decimal.</p>
+            </div>
+
+            <div class="dropdown-content" id="B2">
+                <p><h2>Examples Regarding The Topic</h2></p>
+                <p><b>Example 1: </b> Without actual division, find which of the following rational numbers are terminating decimals: (i) 5/32 and (ii) 11/24.</p>
+                <p><b>Solution:</b> <br><br> (i) Denominator of 5/32 is 32.<br> And, 32 = 2⁵. Therefore, 32 has no prime factors other than 2. <br> So, 5/32 is a terminating decimal. <br><br> (ii) Denominator of 11/24 is 24. <br> And, 24 = 2² x 3. <br>Thus, 24 has a prime factor of 3, which is other than 3 and 5. Therefore, 11/24 is not a terminating decimal.</p>
+                
+            </div>
+
+            <div class="dropdown-content" id="B3">
+                <p><h2>Practice Questions</h2></p>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+  <script>
+
+function toggleDropdown(id) {
+            const content = document.getElementById(id);
+            const isVisible = content.classList.contains('show');
+            document.querySelectorAll('.dropdown-content').forEach(dropdown => {
+                dropdown.classList.remove('show');
+            });
+            if (!isVisible) {
+                content.classList.add('show');
+            }
+        }
+
+  </script>
+
+</body>
+</html>
