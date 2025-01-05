@@ -21,6 +21,7 @@ body {
     
     animation: fadeAnim .5s ease-in-out;
     cursor:pointer;
+    background-color: #213343;
     overflow-x: hidden;
     
 }
