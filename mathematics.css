@@ -14,6 +14,13 @@
         background-color: black;
     }
 
+    button img{
+        height:fit-content;
+        width:fit-content;
+        overflow: none;
+        margin: 1vh;
+    }
+
     button{
 
         background: transparent;
@@ -63,7 +70,7 @@
     .geometry{
 
         left: 66.6%;
-        top: 32.2%;
+        top: 54.2%;
         transition: .2s ease-in-out;
 
     }
@@ -108,9 +115,26 @@
         left: 66.7%;
         top: 53%;
         transition: .2s ease-in-out;
+        height: 20vh;
+    }
+
+    .heronsformula, .heronsformula img{
+
+        left: 78%;
+        top: 43%;
+        height: 26vh;
+        transition: .2s ease-in-out;
         
     }
 
+    .circles, .circles img{
+
+        left: 65%;
+        top: 43%;
+        height: 26vh;
+        transition: .2s ease-in-out;
+        
+    }
 
     .buttons button:hover{
 
@@ -145,7 +169,7 @@
     .subtitle{
 
         position: absolute;
-        padding-left: 50px;
+        padding-left: 5vw;
         padding-top: 13%;
         top: 10vh;
 
@@ -155,7 +179,7 @@
         display: absolute;
         position: absolute; 
         text-align: left; 
-        padding-left: 150px; 
+        padding-left: 5vw; 
         color: white; 
         top: 500px; 
     }

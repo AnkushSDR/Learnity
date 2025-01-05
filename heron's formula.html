@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learnity</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="security.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="navigationbar.css">
+  <link rel="stylesheet" href="mathematics.css">
+  <link rel="icon" href="TitleBarLogo.png">
+
+</head>
+
+<body>
+
+  <!-- Background Image --> 
+
+  <div class="bgimage" style="background-image: url(mathematicsbackground.jpg);"></div>
+  <div class="borderbgimage" style="background-color: black;"></div>
+
+  <!-- Website Navigation Bar -->
+
+<nav class="navigationbar">
+
+    <div class="navbarlogo"><img src="LearnityNavBarLogo.png"></div>
+    <p> Learnity </p>
+    <a href="index.html#home" class="navigationbutton">Home</a>
+    <a href="index.html#subjects" class="navigationbutton">Subjects</a>
+    <a href="index.html#credits" class="navigationbutton">Credits</a>
+    <a href="index.html#rateus" class="navigationbutton">Feedbacks</a>
+
+</nav>
+
+  <!-- Website Title  -->
+
+  <div class="subtitle">
+
+    <h1 id="topictitle1">Number Systems</h1>    
+    
+  </div>
+
+<section class="regrouping">
+</section>
+
+<div class="topics">
+
+    <div class="designs" style="padding-top: 20%;">1. Introduction to Heron's Formula
+
+                    <div class="sidebuttons">
+                        <button onclick="toggleDropdown('A1')" class="openbutton" aria-controls="B1" aria-expanded="false">Learn About This Topic</button>
+                    
+                        <div class="dropdown-content" id="A1">
+                            <p><h2>History and Concept</h2></p>
+                            <p>Named after the ancient Greek mathematician Hero of Alexandria, the formula provides a way to calculate the area of a triangle when the lengths of all three sides are known. Heron's formula is derived from the semi-perimeter and side lengths of the triangle.</p>
+                            <p><h3>Semi-Perimeter of a Triangle</h3></p>
+                            <p>The semi-perimeter (s) is half of the perimeter of a triangle. <br><br><em>s = a+b+c/2</em>, where a, b and c are the lengths of the sides of a triangle.</p>
+                            <p>Heron's Formula</p>
+                            <p>The area (A) of the triangle can be found using: <br><br> A = √s(s-a)(s-b)(s-c), this formula is very useful when you do not have the height of the triangle but know, the three side lengths.</p>
+                            <p><h2>Applications of Heron's Formula</h2></p>
+                            <p>
+                                Solved Examples: Step-by-step solutions to problems using Heron's formula to reinforce understanding.<br><br>
+                                Practice Exercises: Additional problems for students to practice and master the concept.<br><br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="designs">2. Properties of a Triangle
+
+        <div class="sidebuttons">
+            <button onclick="toggleDropdown('B1')" class="openbutton" aria-controls="B1" aria-expanded="false">Learn About This Topic</button>
+            <button onclick="toggleDropdown('B2')" class="openbutton" style="margin-left: .5%;" aria-controls="B2" aria-expanded="false">Examples & Solutions</button>
+            <button onclick="toggleDropdown('B3')" class="openbutton" style="margin-left: .5%;" aria-controls="B3" aria-expanded="false">Practice Papers</button></div>
+        
+            <div class="dropdown-content" id="B1">
+                <p>
+                    The Perimeter of a Triangle: ½ x Length x Breadth.<br>
+                    Area of a Triangle: Total sum of the lengths of a triangle.<br>
+                    Internal Angle: 60°.<br>
+                    Total Sum Internal Angles: 180°.<br>
+                    <p><h2>Types of Triangles</h2></p>
+                <p>Triangles can be distinguished on the following basis:<br><br> According to the length of the sides, and according to the measure of internal angles.</p>
+                <p><h3>According to the Length of Sides</h3></p>
+                <p>
+                    Equilateral Triangle: It is a Triangle with all sides of the same length. All the internal angles are 60°. Let us suppose a Triangle of sides a, b and c.<br>
+                    Equilateral Triangle: a = b = c<br><br>
+                    Isosceles Triangle: It has two sides of equal length and another side is of different measure.<br>
+                    Isosceles Triangle: a = b but not equal to c<br><br>
+                    Scalene Triangle: It has sides of unequal length which means all the sides are of different lengths. All the angles are also of different lengths.    
+                </p>
+                <p>According to the Measure of Internal Angles</p>
+                <p>
+                    1. Right Angle Triangle: Any triangle with one interior angle of measure 90° is known as Right Triangle. Right angles obey Pythagoras Theorem which is a³ + b² = c², where a, b, c are the sides of any Triangle.<br><br>
+                    2. Obtuse Triangle: Any triangle with anyone interior angle greater than 90° is called an obtuse triangle.<br><br>
+                    3. Acute Triangle: Any triangle with interior angles less than 90° is called Acute  Triangle.<br><br>
+                </p>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+  <script>
+
+function toggleDropdown(id) {
+            const content = document.getElementById(id);
+            const isVisible = content.classList.contains('show');
+            document.querySelectorAll('.dropdown-content').forEach(dropdown => {
+                dropdown.classList.remove('show');
+            });
+            if (!isVisible) {
+                content.classList.add('show');
+            }
+        }
+
+  </script>
+
+</body>
+</html>
