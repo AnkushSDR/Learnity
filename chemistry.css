@@ -37,7 +37,7 @@ button{
 .surroundingmater, .surroundingmater img{
 
     height: 25vh;
-    left: 83.9%;
+    left: 58.9%;
     top: 50%;
     transition: .2s ease-in-out;
 
@@ -84,7 +84,7 @@ button{
     background-size: 150%;
     -webkit-text-fill-color: transparent;
     animation: gradient 4s infinite ease-in-out;
-        display: absolute;
+    display: absolute;
     position: absolute; 
     text-align: left; 
     padding-left: 1vw; 
@@ -96,7 +96,7 @@ button{
 #topictitle{
 
     background: linear-gradient(45deg, rgb(139, 107, 52), rgb(210, 212, 89), rgb(139, 107, 52));
-    font-size: 4vh;
+    font-size: 6vh;
     font-weight: 900;
     background-clip: text;
     padding-top: 18%;
@@ -123,7 +123,7 @@ button{
     position: absolute;
     z-index: -2;
     width: 100vw;
-    height: 81vh;
+    height: 87vh;
 
 }
 
