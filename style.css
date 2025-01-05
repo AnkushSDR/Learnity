@@ -8,7 +8,7 @@ html, img{
 
 }
 
-@media screen{
+@media screen and (min-width: 769px){
 
 * {
     margin: 0;
