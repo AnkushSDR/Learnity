@@ -8,7 +8,6 @@
   <title>Learnity</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="Ratings.js"></script>
     <script src="script.js"></script>
     <script src="security.js"></script>
   <link rel="stylesheet" href="style.css">
@@ -164,14 +163,14 @@
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
-    loop: true,
+    loop: false,
     slidesPerView: "auto",
-    autoplay: true,
+    autoplay: false,
     coverflowEffect: {
-        rotate: 2,
-        stretch: 2,
-        depth: 55,
-        modifier: 10,
+        rotate: 3,
+        stretch: 3,
+        depth: 60,
+        modifier: 8,
         slideShadows: true,
     },
   });
@@ -256,11 +255,10 @@
     typesubtitle();
     typequalities();
 });  
+</script>
 
-function toggleslideupAnim(id) {
-    document.getElementById(id).classList.toggle("slideup");
-}
-
+<script>
+    
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-analytics.js";
@@ -346,7 +344,6 @@ document.querySelectorAll('.star').forEach(star => {
 });
 
 </script>
-  
 
 </body>
 
