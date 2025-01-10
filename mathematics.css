@@ -282,16 +282,15 @@
         text-align: left;
         left: 23vw;
         margin-left: 1.5vw;
-        opacity: 0;
         margin-top: 2vh;
         padding-left: 1vw;
         padding-right: 1vw;
-        padding-bottom: 2vh;
-        transition: max-height 1s ease-in-out, margin .5s ease-in-out;
+        padding-bottom: .1vh;
+        transition: max-height .8s ease-in-out , margin .5s ease-in-out;
         max-height: 0vh;
         text-indent: 1vw;
     }
-
+    
     .designs p{
 
         margin-top: 1.7%;
@@ -304,7 +303,6 @@
     .show {
 
         max-height: 200vh;
-        opacity: 1;
     }
 
     /* Sections */

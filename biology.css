@@ -72,7 +72,7 @@
 
     #chaptertitle, #subjecttitle{
 
-        background: linear-gradient(45deg, rgb(112, 102, 10), rgba(19, 133, 66, 0.829), rgb(255, 230, 0));
+        background: linear-gradient(45deg, rgba(155, 177, 35, 0.829), rgba(186, 216, 19, 0.829), rgb(255, 230, 0));
         font-size: 11vh;
         font-weight: 900;
         background-clip: text;
@@ -84,7 +84,7 @@
 
     #topictitle1{
 
-        background: linear-gradient(45deg, rgb(0, 162, 255), rgba(255, 0, 34, 0.829), rgb(0, 162,255));
+        background: linear-gradient(145deg, rgb(156, 177, 35), rgb(186, 216, 19), rgb(156, 177, 35));
         font-size: 10vh;
         font-weight: 900;
         background-clip: text;
@@ -210,16 +210,15 @@
         text-align: left;
         left: 23vw;
         margin-left: 1.5vw;
-        opacity: 0;
         margin-top: 2vh;
         padding-left: 1vw;
         padding-right: 1vw;
-        padding-bottom: 2vh;
+        padding-bottom: .1vh;
         transition: max-height 1s ease-in-out, margin .5s ease-in-out;
         max-height: 0vh;
         text-indent: 1vw;
     }
-
+    
     .designs p{
 
         margin-top: 1.7%;
@@ -232,7 +231,6 @@
     .show {
 
         max-height: 200vh;
-        opacity: 1;
     }
 
     /* Sections */

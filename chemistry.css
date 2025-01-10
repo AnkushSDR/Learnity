@@ -46,7 +46,7 @@ button{
 .atommolecule, .atommolecule img{
     
     height: 25vh;
-    left: 58.5%;
+    left: 72%;
     top: 50%;
     transition: .2s ease-in-out;
 
@@ -60,6 +60,7 @@ button{
     transition: .2s ease-in-out;
 
 }
+
 
 .buttons{
 
