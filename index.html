@@ -51,7 +51,7 @@
     <a class="hyper" href="#subjects"><button class="nextpagebutton">Start learning</button></a>
 
 </div>  
-</section>
+</section> 
 
 <section id="credits" style="background: linear-gradient(rgba(60, 74, 197, 0.753), rgba(26, 9, 100, 0.452));">
 
@@ -66,8 +66,9 @@
 <div class="credits">
 
     <div class="card1"><div class="personimage"><img src="Images/People/ankush.jpg"></div><p class="name">Ankush Samaddar</p><span id="classification" style="border-bottom: 2px lightblue solid; margin-left: 7vw;margin-right: 7vw;">Programming</span><p class="personinfo">Ankush Samaddar is the person who took forth the creation of the source code, acting as one of the foundation blocks for the webpage. He also assisted with the proper maintanance of the website, ensuring proper safety and security from front-end and back-end programming.</p></div>
-    <div class="card2"><div class="personimage"><img src="Images/People/aara.jpg"></div><p class="name">Aaratrik Ghosh</p><span id="classification" style="border-bottom: 2px lightblue solid; margin-left: 5.5vw;margin-right: 5.5vw;">User Interface Design</span><p class="personinfo">Aaratrik Ghosh contributed to the project with his suggestions and advice on certain parts of the website. He ensured to provide useful information on design and the educational information that are used throughout the website. </p></div>
+    <div class="card2"><div class="personimage"><img src="Images/People/.jpg"></div><p class="name">Aaratrik Ghosh</p><span id="classification" style="border-bottom: 2px lightblue solid; margin-left: 5.5vw;margin-right: 5.5vw;">User Interface Design</span><p class="personinfo">Aaratrik Ghosh contributed to the project with his suggestions and advice on certain parts of the website. He ensured to provide useful information on design and the educational information that are used throughout the website. </p></div>
     <div class="card3"><div class="personimage"><img src="Images/People/himanishdb.jpg" style="height: 40vh;width:21vw;"></div><p class="name">Himanish Dutta Banik</p><span id="classification" style="border-bottom: 2px lightblue solid; margin-left: 2.5vw;margin-right: 2.5vw;">User Interface Design | Data Analysis</span><p class="personinfo">Himanish Dutta Banik is the main designer of the website. He is the backbone of the designs and visual representations utilised in the making of the project, and also suggesting ideas for improvement whenever possible. He have also ensured to provide up-to-date and useful information on different subjects that have been made available for 9th grade in our website.</p></div>
+    <div class="card4"><div class="personimage"><img src="Images/People/.jpg" style="height: 40vh;width:21vw;"></div><p class="name">Nabanno Talukdar</p><span id="classification" style="border-bottom: 2px lightblue solid; margin-left: 8vw;margin-right: 5vw;">Data Analysis</span></div>
 
 </div>
 </section>
@@ -87,15 +88,15 @@
                 <input type="text" id="feedback" placeholder="Please enter your desired feedback">
             </div>
             <div id="star-rating" class="stars">
-                <span class="star" data-value="1">&#9734;</span>
-                <span class="star" data-value="2">&#9734;</span>
-                <span class="star" data-value="3">&#9734;</span>
-                <span class="star" data-value="4">&#9734;</span>
-                <span class="star" data-value="5">&#9734;</span>
+                <span class="star" data-value="1">&#9733;</span>
+                <span class="star" data-value="2">&#9733;</span>
+                <span class="star" data-value="3">&#9733;</span>
+                <span class="star" data-value="4">&#9733;</span>
+                <span class="star" data-value="5">&#9733;</span>
             </div>
+            <button id="submitbutton">Submit Review</button>
         </div>
     </div>
-    <script type="module" src="Ratings.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-storage.js"></script>
@@ -257,8 +258,7 @@
 });  
 </script>
 
-<script>
-    
+<script type="module">   
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-analytics.js";
@@ -283,7 +283,7 @@ const database = getDatabase(app);
 
 let ratingvalue = null; // Define ratingvalue outside
 
-function submitReview() {
+function submitReview(event) {
     const username = document.getElementById('user').value;
 
     console.log("Username: ", username); // Debugging
@@ -342,6 +342,8 @@ document.querySelectorAll('.star').forEach(star => {
         console.log('Selected star value:', ratingvalue);
     });
 });
+
+document.getElementById('submitbutton').onclick = submitReview;
 
 </script>
 

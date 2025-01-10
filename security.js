@@ -1,6 +1,6 @@
-document.addEventListener("contextmenu", function(event){
+// document.addEventListener("contextmenu", function(event){
 
-    event.preventDefault()
-    alert("Doya koria right click chipia lojja diben na.")
+//    event.preventDefault()
+//    alert("Doya koria right click chipia lojja diben na.")
 
-});
+//});

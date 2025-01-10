@@ -5,6 +5,7 @@ html, img{
 
     scroll-behavior: smooth;
     -webkit-user-drag: none;
+    user-select: none;
 
 }
 
@@ -28,7 +29,7 @@ body {
 
 
     /* Carousel Configuration */
-
+ 
     .learnity-carousel {
 
         height: 65vh;
@@ -347,10 +348,10 @@ body {
     .rateusmessage h2{
 
         position: absolute;
-        top: 6vh;
+        top: 4vh;
         width: 21vw;
         left: 1vw;
-        font-size: 115%;
+        font-size: calc(1rem + 0.2vw);
     }
 
     .textinput{
@@ -430,8 +431,7 @@ body {
 
     .stars{
 
-        display: flex;
-        
+        display: flex; 
         justify-content: center;
         align-items: center;
         width: 23vw;
@@ -440,13 +440,38 @@ body {
         text-shadow: 2px 2px 4px #0a2227;
     }
 
-    /* Rate Us Information Gatherer Animation */
-    @keyframes floatingAnimation{
-
-        0% {transform: translateY(10vw);}
-        100%{transform: translateY(15vw);}
+    #submitbutton{
+        
+        margin: 0;
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        height: 3vmax;
+        margin-bottom: 3vh;
+        margin-top: 3vh;
+        font-size: large;
+        font-weight: 700;
+        font-family: Poppins, serif;
+        border-radius: 50px;
+        color: white;
+        background: linear-gradient(45deg, lightgreen, rgb(42, 131, 42), rgb(20, 141, 20), darkgreen);
+        background-size: 200% 200%;
+        outline: none;
+        box-shadow: none;
+        border: none;
+        transition: background-position .7s, border-radius .5s, box-shadow .5s;
 
     }
+
+    #submitbutton:hover{
+        background-position: 100% 100%;
+    }
+
+    #submitbutton:focus{
+        border-radius: 10px;
+        box-shadow: 1vw 1vh rgb(20, 141, 20);
+    }
+
 
     /* Home Section */
 
@@ -508,23 +533,22 @@ body {
         
     #credits .creditstext{ 
         
-        position: absolute; 
-        font-size: 60px;
-        text-align: center; 
-        padding-left: 1vw; 
-        color: white; 
-        top: 45vh; 
+            position: absolute; 
+            font-size: 60px; 
+            padding-left: 1vw; 
+            color: white; 
+            top: 8vh; 
         
         }
         
     #credits .creditsdescription{ 
         
         position: absolute; 
-        text-align: center; 
         font-size: 28px;
         padding-left: 2vw; 
         color: white; 
-        top: 57vh;   
+        top: 12vh;   
+        left: 22vw;
         }
         
                 
@@ -532,10 +556,9 @@ body {
         
             position: absolute;
             display: flex;
-            left: 30vw;
+            left: 4vw;
             top: 20vh;
-            width: 70vw;
-            
+            width: 90vw;
         }
         
     #credits .credits img{
@@ -550,7 +573,8 @@ body {
 
     #credits .credits .card1,
     #credits .credits .card2,
-    #credits .credits .card3{
+    #credits .credits .card3,
+    #credits .credits .card4{
             
             background-color: rgba(15, 60, 119, 0.119);
             position: relative;
